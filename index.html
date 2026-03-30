@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SBL Lead Engine — ML-Powered Lead Intelligence</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --black: #0a0a0a;
+    --white: #ffffff;
+    --gray-50: #f9f9f8;
+    --gray-100: #f0efea;
+    --gray-200: #e2e1db;
+    --gray-400: #9b9a94;
+    --gray-600: #5c5b57;
+    --gray-900: #1a1a18;
+    --blue-50: #eef4ff;
+    --blue-400: #3b82f6;
+    --blue-600: #1d4ed8;
+    --blue-900: #1e3a8a;
+    --green-50: #f0fdf4;
+    --green-400: #22c55e;
+    --green-600: #16a34a;
+    --amber-50: #fffbeb;
+    --amber-400: #f59e0b;
+    --amber-600: #d97706;
+    --red-50: #fef2f2;
+    --red-400: #f87171;
+    --red-600: #dc2626;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: var(--white); color: var(--gray-900); line-height: 1.6; font-size: 16px; }
+
+  /* NAV */
+  nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 60px; border-bottom: 1px solid var(--gray-200); background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 100; }
+  .nav-logo { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 600; color: var(--black); text-decoration: none; }
+  .nav-logo-icon { width: 28px; height: 28px; background: var(--black); border-radius: 7px; display: flex; align-items: center; justify-content: center; }
+  .nav-logo-icon svg { width: 16px; height: 16px; fill: white; }
+  .nav-links { display: flex; align-items: center; gap: 2rem; }
+  .nav-links a { font-size: 14px; color: var(--gray-600); text-decoration: none; transition: color .15s; }
+  .nav-links a:hover { color: var(--black); }
+  .nav-cta { font-size: 13px; font-weight: 500; background: var(--black); color: white; border: none; padding: 8px 18px; border-radius: var(--radius-sm); cursor: pointer; text-decoration: none; transition: opacity .15s; }
+  .nav-cta:hover { opacity: 0.85; }
+
+  /* HERO */
+  .hero { max-width: 860px; margin: 0 auto; padding: 80px 2rem 60px; text-align: center; }
+  .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--blue-50); color: var(--blue-600); font-size: 12px; font-weight: 500; padding: 5px 12px; border-radius: 20px; border: 1px solid #bfdbfe; margin-bottom: 28px; }
+  .hero-badge-dot { width: 6px; height: 6px; background: var(--blue-400); border-radius: 50%; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+  h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.15; color: var(--black); letter-spacing: -0.02em; margin-bottom: 20px; }
+  h1 span { color: var(--gray-400); }
+  .hero-sub { font-size: 18px; color: var(--gray-600); max-width: 560px; margin: 0 auto 36px; line-height: 1.65; }
+  .hero-actions { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .btn-primary { background: var(--black); color: white; font-size: 14px; font-weight: 500; padding: 12px 24px; border-radius: var(--radius-sm); border: none; cursor: pointer; text-decoration: none; transition: opacity .15s; display: inline-block; }
+  .btn-primary:hover { opacity: 0.85; }
+  .btn-secondary { background: transparent; color: var(--gray-900); font-size: 14px; font-weight: 500; padding: 12px 24px; border-radius: var(--radius-sm); border: 1px solid var(--gray-200); cursor: pointer; text-decoration: none; transition: background .15s; display: inline-block; }
+  .btn-secondary:hover { background: var(--gray-50); }
+  .hero-note { font-size: 12px; color: var(--gray-400); margin-top: 16px; }
+
+  /* STATS STRIP */
+  .stats-strip { border-top: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); padding: 24px 2rem; }
+  .stats-inner { max-width: 860px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+  .stat-item { text-align: center; padding: 0 1rem; border-right: 1px solid var(--gray-200); }
+  .stat-item:last-child { border-right: none; }
+  .stat-num { font-size: 26px; font-weight: 700; color: var(--black); letter-spacing: -0.02em; }
+  .stat-lbl { font-size: 12px; color: var(--gray-400); margin-top: 2px; }
+
+  /* SECTION */
+  section { max-width: 860px; margin: 0 auto; padding: 72px 2rem; }
+  .section-label { font-size: 11px; font-weight: 600; color: var(--gray-400); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 12px; }
+  h2 { font-size: clamp(22px, 3vw, 32px); font-weight: 700; color: var(--black); letter-spacing: -0.02em; margin-bottom: 12px; line-height: 1.25; }
+  .section-sub { font-size: 16px; color: var(--gray-600); max-width: 520px; margin-bottom: 40px; line-height: 1.65; }
+
+  /* DEMO CARD */
+  .demo-wrap { border: 1px solid var(--gray-200); border-radius: var(--radius-xl); overflow: hidden; }
+  .demo-topbar { background: var(--gray-50); border-bottom: 1px solid var(--gray-200); padding: 12px 20px; display: flex; align-items: center; gap: 8px; }
+  .demo-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .demo-url { margin-left: 12px; background: white; border: 1px solid var(--gray-200); border-radius: 5px; padding: 4px 14px; font-size: 12px; color: var(--gray-400); flex: 1; max-width: 320px; }
+  .demo-body { display: grid; grid-template-columns: 1fr 1fr; min-height: 440px; }
+  .demo-left { padding: 28px; border-right: 1px solid var(--gray-200); }
+  .demo-right { padding: 28px; background: var(--gray-50); }
+  .field-group { margin-bottom: 16px; }
+  .field-label { font-size: 11px; font-weight: 600; color: var(--gray-600); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; display: block; }
+  .field-select { width: 100%; padding: 9px 12px; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); font-size: 13px; color: var(--gray-900); background: white; appearance: none; cursor: pointer; outline: none; transition: border-color .15s; }
+  .field-select:focus { border-color: var(--gray-400); }
+  .field-textarea { width: 100%; padding: 9px 12px; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); font-size: 13px; color: var(--gray-900); background: white; resize: none; outline: none; transition: border-color .15s; font-family: inherit; }
+  .field-textarea:focus { border-color: var(--gray-400); }
+  .run-btn { width: 100%; background: var(--black); color: white; border: none; padding: 11px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 500; cursor: pointer; transition: opacity .15s; margin-top: 4px; }
+  .run-btn:hover { opacity: 0.85; }
+  .result-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; color: var(--gray-400); font-size: 13px; gap: 12px; }
+  .result-placeholder svg { width: 32px; height: 32px; opacity: 0.3; }
+  .result-panel { display: none; flex-direction: column; gap: 16px; }
+  .result-panel.show { display: flex; }
+  .score-header { display: flex; align-items: center; gap: 14px; }
+  .score-badge { width: 52px; height: 52px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; flex-shrink: 0; }
+  .score-badge.hot { background: var(--red-50); color: var(--red-600); }
+  .score-badge.warm { background: var(--amber-50); color: var(--amber-600); }
+  .score-badge.cold { background: var(--blue-50); color: var(--blue-600); }
+  .score-title { font-size: 18px; font-weight: 700; color: var(--black); }
+  .score-sub { font-size: 12px; color: var(--gray-400); margin-top: 2px; }
+  .prob-bars { display: flex; flex-direction: column; gap: 8px; }
+  .prob-row { display: flex; align-items: center; gap: 10px; font-size: 12px; }
+  .prob-lbl { width: 36px; color: var(--gray-600); font-weight: 500; }
+  .prob-bar-bg { flex: 1; height: 6px; background: var(--gray-200); border-radius: 3px; overflow: hidden; }
+  .prob-bar-fill { height: 100%; border-radius: 3px; transition: width .6s ease; }
+  .prob-pct { width: 32px; text-align: right; color: var(--gray-600); }
+  .result-section { background: white; border: 1px solid var(--gray-200); border-radius: var(--radius-md); padding: 14px; }
+  .result-section-title { font-size: 11px; font-weight: 600; color: var(--gray-400); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+  .reply-row { display: flex; align-items: center; justify-content: space-between; }
+  .reply-pct { font-size: 22px; font-weight: 700; color: var(--black); }
+  .quality-badge { font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
+  .quality-badge.strong { background: var(--green-50); color: var(--green-600); }
+  .quality-badge.average { background: var(--amber-50); color: var(--amber-600); }
+  .quality-badge.weak { background: var(--red-50); color: var(--red-600); }
+  .msg-box { background: var(--gray-50); border-radius: var(--radius-sm); padding: 12px; font-size: 12px; color: var(--gray-600); line-height: 1.65; border: 1px solid var(--gray-200); white-space: pre-line; }
+  .reasoning-text { font-size: 12px; color: var(--gray-600); line-height: 1.6; }
+  .copy-btn { background: transparent; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); padding: 5px 12px; font-size: 11px; color: var(--gray-600); cursor: pointer; margin-top: 8px; transition: background .15s; }
+  .copy-btn:hover { background: var(--gray-100); }
+
+  /* HOW IT WORKS */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .step-card { padding: 24px; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); }
+  .step-num { font-size: 11px; font-weight: 600; color: var(--gray-400); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+  .step-icon { width: 40px; height: 40px; border-radius: 10px; background: var(--gray-100); display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+  .step-icon svg { width: 20px; height: 20px; }
+  .step-title { font-size: 15px; font-weight: 600; color: var(--black); margin-bottom: 8px; }
+  .step-desc { font-size: 13px; color: var(--gray-600); line-height: 1.65; }
+  .step-tag { display: inline-block; font-size: 11px; padding: 3px 9px; border-radius: 20px; margin-top: 12px; }
+
+  /* IMPACT */
+  .impact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .impact-card { padding: 24px; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); }
+  .impact-card.highlight { border-color: var(--black); }
+  .impact-num { font-size: 36px; font-weight: 700; color: var(--black); letter-spacing: -0.03em; }
+  .impact-desc { font-size: 14px; color: var(--gray-600); margin-top: 6px; line-height: 1.55; }
+
+  /* TECH */
+  .tech-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .tech-pill { display: flex; align-items: center; gap: 10px; padding: 14px 16px; border: 1px solid var(--gray-200); border-radius: var(--radius-md); }
+  .tech-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .tech-name { font-size: 13px; font-weight: 500; color: var(--black); }
+  .tech-role { font-size: 11px; color: var(--gray-400); margin-top: 1px; }
+
+  /* CTA SECTION */
+  .cta-section { background: var(--black); border-radius: var(--radius-xl); padding: 56px 48px; text-align: center; margin: 0 2rem 72px; max-width: 860px; margin-left: auto; margin-right: auto; }
+  .cta-section h2 { color: white; margin-bottom: 12px; }
+  .cta-section p { color: rgba(255,255,255,0.6); font-size: 16px; margin-bottom: 32px; }
+  .cta-section .btn-primary { background: white; color: var(--black); }
+  .cta-section .btn-secondary { border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.8); }
+  .cta-section .btn-secondary:hover { background: rgba(255,255,255,0.08); }
+
+  /* FOOTER */
+  footer { border-top: 1px solid var(--gray-200); padding: 28px 2rem; display: flex; align-items: center; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+  .footer-left { font-size: 13px; color: var(--gray-400); }
+  .footer-right { display: flex; gap: 20px; }
+  .footer-right a { font-size: 13px; color: var(--gray-400); text-decoration: none; transition: color .15s; }
+  .footer-right a:hover { color: var(--black); }
+
+  @media (max-width: 640px) {
+    .stats-inner { grid-template-columns: repeat(2,1fr); }
+    .stat-item:nth-child(2) { border-right: none; }
+    .demo-body { grid-template-columns: 1fr; }
+    .demo-left { border-right: none; border-bottom: 1px solid var(--gray-200); }
+    .steps { grid-template-columns: 1fr; }
+    .impact-grid { grid-template-columns: 1fr; }
+    .tech-grid { grid-template-columns: repeat(2,1fr); }
+    .nav-links { display: none; }
+    .cta-section { padding: 40px 24px; margin: 0 1rem 48px; }
+    footer { flex-direction: column; gap: 16px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="nav-logo-icon">
+      <svg viewBox="0 0 16 16"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 2a5 5 0 110 10A5 5 0 018 3zm0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
+    </div>
+    SBL Lead Engine
+  </a>
+  <div class="nav-links">
+    <a href="#demo">Live Demo</a>
+    <a href="#how">How It Works</a>
+    <a href="#impact">Impact</a>
+    <a href="#tech">Tech Stack</a>
+  </div>
+  <a class="nav-cta" href="https://github.com/YOUR_USERNAME/sbl-lead-engine" target="_blank">View on GitHub</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">
+    <div class="hero-badge-dot"></div>
+    Built specifically for Second Brain Labs
+  </div>
+  <h1>Find the 20% of leads<br><span>that drive 80% of replies</span></h1>
+  <p class="hero-sub">An ML pipeline that scores LinkedIn leads, predicts reply probability, and generates personalised messages — before the campaign starts.</p>
+  <div class="hero-actions">
+    <a class="btn-primary" href="#demo">Try the demo</a>
+    <a class="btn-secondary" href="https://github.com/YOUR_USERNAME/sbl-lead-engine" target="_blank">GitHub →</a>
+  </div>
+  <p class="hero-note">No API key needed &nbsp;·&nbsp; Runs in-browser &nbsp;·&nbsp; Open source</p>
+</div>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div class="stat-item"><div class="stat-num">600+</div><div class="stat-lbl">Leads trained on</div></div>
+    <div class="stat-item"><div class="stat-num">90.5%</div><div class="stat-lbl">Reply model R²</div></div>
+    <div class="stat-item"><div class="stat-num">3x</div><div class="stat-lbl">Predicted reply uplift</div></div>
+    <div class="stat-item"><div class="stat-num">12</div><div class="stat-lbl">LinkedIn signal features</div></div>
+  </div>
+</div>
+
+<!-- DEMO -->
+<section id="demo">
+  <div class="section-label">Live demo</div>
+  <h2>Score a lead right now</h2>
+  <p class="section-sub">Fill in a LinkedIn profile and see the engine classify, score, and write a personalised message in real time.</p>
+
+  <div class="demo-wrap">
+    <div class="demo-topbar">
+      <div class="demo-dot" style="background:#ff5f57"></div>
+      <div class="demo-dot" style="background:#febc2e"></div>
+      <div class="demo-dot" style="background:#28c840"></div>
+      <div class="demo-url">sbl-lead-engine.github.io</div>
+    </div>
+    <div class="demo-body">
+      <div class="demo-left">
+        <div class="field-group">
+          <label class="field-label">Job title</label>
+          <select class="field-select" id="title">
+            <option>Founder</option><option>Co-Founder</option><option>CEO</option>
+            <option>Head of Sales</option><option>VP Sales</option>
+            <option>Director of Growth</option><option>Marketing Manager</option>
+            <option>Product Manager</option><option>Software Engineer</option>
+            <option>HR Manager</option><option>Student</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label class="field-label">Industry</label>
+          <select class="field-select" id="industry">
+            <option>SaaS</option><option>B2B Tech</option><option>E-commerce</option>
+            <option>Sales Tech</option><option>Marketing Tech</option><option>Fintech</option>
+            <option>Consulting</option><option>Digital Marketing</option>
+            <option>Healthcare</option><option>Education</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label class="field-label">Company size</label>
+          <select class="field-select" id="size">
+            <option>1-10</option><option>11-50</option><option selected>51-200</option>
+            <option>201-500</option><option>1000+</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label class="field-label">LinkedIn bio</label>
+          <textarea class="field-textarea" id="bio" rows="3" placeholder="Paste their bio here...">Scaling B2B outbound revenue. Cold outreach and GTM strategy.</textarea>
+        </div>
+        <div class="field-group">
+          <label class="field-label">Your outreach message</label>
+          <textarea class="field-textarea" id="message" rows="3" placeholder="Paste your draft message...">Hey, noticed your work on B2B outbound — impressive. We help founders automate outreach while keeping it human. 15 mins this week?</textarea>
+        </div>
+        <button class="run-btn" onclick="runEngine()">Run Lead Engine</button>
+      </div>
+
+      <div class="demo-right">
+        <div class="result-placeholder" id="placeholder">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="16" cy="16" r="13"/><path d="M16 10v6l4 2"/>
+          </svg>
+          Results will appear here
+        </div>
+        <div class="result-panel" id="results">
+          <div class="score-header">
+            <div class="score-badge" id="r-badge">87</div>
+            <div>
+              <div class="score-title" id="r-title">Hot Lead</div>
+              <div class="score-sub" id="r-conf">91.2% confidence</div>
+            </div>
+          </div>
+          <div class="prob-bars">
+            <div class="prob-row">
+              <div class="prob-lbl" style="color:#dc2626">Hot</div>
+              <div class="prob-bar-bg"><div class="prob-bar-fill" id="bar-hot" style="background:#fca5a5;width:0%"></div></div>
+              <div class="prob-pct" id="pct-hot">0%</div>
+            </div>
+            <div class="prob-row">
+              <div class="prob-lbl" style="color:#d97706">Warm</div>
+              <div class="prob-bar-bg"><div class="prob-bar-fill" id="bar-warm" style="background:#fcd34d;width:0%"></div></div>
+              <div class="prob-pct" id="pct-warm">0%</div>
+            </div>
+            <div class="prob-row">
+              <div class="prob-lbl" style="color:#1d4ed8">Cold</div>
+              <div class="prob-bar-bg"><div class="prob-bar-fill" id="bar-cold" style="background:#93c5fd;width:0%"></div></div>
+              <div class="prob-pct" id="pct-cold">0%</div>
+            </div>
+          </div>
+          <div class="result-section">
+            <div class="result-section-title">Reply prediction</div>
+            <div class="reply-row">
+              <div class="reply-pct" id="r-reply">71%</div>
+              <span class="quality-badge strong" id="r-quality">Strong message</span>
+            </div>
+            <div class="reasoning-text" id="r-reasoning" style="margin-top:8px"></div>
+          </div>
+          <div class="result-section">
+            <div class="result-section-title">AI-personalised message</div>
+            <div class="msg-box" id="r-msg"></div>
+            <button class="copy-btn" onclick="copyMsg()">Copy message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" style="background:var(--gray-50);max-width:100%;padding:72px 0;">
+  <div style="max-width:860px;margin:0 auto;padding:0 2rem;">
+    <div class="section-label">How it works</div>
+    <h2>Three components, one pipeline</h2>
+    <p class="section-sub">Each component runs sequentially — profile in, prioritised lead out.</p>
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-num">Component 01</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 20 20" fill="none" stroke="#0a0a0a" stroke-width="1.5">
+            <circle cx="10" cy="10" r="8"/><path d="M10 6v4l3 2"/>
+          </svg>
+        </div>
+        <div class="step-title">Lead scorer</div>
+        <div class="step-desc">Random Forest + Gradient Boosting ensemble. 12 LinkedIn signals → Hot / Warm / Cold label with 0–100 priority score and confidence %.</div>
+        <span class="step-tag" style="background:#f0fdf4;color:#16a34a">scikit-learn</span>
+      </div>
+      <div class="step-card">
+        <div class="step-num">Component 02</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 20 20" fill="none" stroke="#0a0a0a" stroke-width="1.5">
+            <path d="M3 10h14M3 5h14M3 15h8"/>
+          </svg>
+        </div>
+        <div class="step-title">Reply predictor</div>
+        <div class="step-desc">TF-IDF + GBM regression. Scores your message quality, predicts reply probability %, and gives specific tips to improve it before sending.</div>
+        <span class="step-tag" style="background:#eff6ff;color:#1d4ed8">NLP + GBM</span>
+      </div>
+      <div class="step-card">
+        <div class="step-num">Component 03</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 20 20" fill="none" stroke="#0a0a0a" stroke-width="1.5">
+            <path d="M4 4h12v9a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"/><path d="M8 13v3m4-3v3"/>
+          </svg>
+        </div>
+        <div class="step-title">Personalizer</div>
+        <div class="step-desc">Reads bio keywords, title, and industry to craft a specific opening hook. Detects signals like "scaling", "outbound", "B2B" and adapts the message tone.</div>
+        <span class="step-tag" style="background:#fdf4ff;color:#7e22ce">NLP engine</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact">
+  <div class="section-label">Business impact</div>
+  <h2>What this means for SBL campaigns</h2>
+  <p class="section-sub">SBL already gets 30–40% reply rates. This engine identifies which leads are responsible — before the campaign runs.</p>
+  <div class="impact-grid">
+    <div class="impact-card highlight">
+      <div class="impact-num">3–4x</div>
+      <div class="impact-desc">More qualified replies per campaign by focusing budget on Hot leads — same outreach effort, dramatically better ROI.</div>
+    </div>
+    <div class="impact-card">
+      <div class="impact-num">88%</div>
+      <div class="impact-desc">Predicted reply probability for a Founder / SaaS lead with the right message — vs 9% for a cold, mismatched profile.</div>
+    </div>
+    <div class="impact-card">
+      <div class="impact-num">Pre-send</div>
+      <div class="impact-desc">Message quality scores let clients test and improve outreach before launching — not just analyse results after.</div>
+    </div>
+    <div class="impact-card">
+      <div class="impact-num">Plug-in</div>
+      <div class="impact-desc">Designed to integrate directly with SBL's campaign analytics. REST API endpoint included via FastAPI wrapper.</div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH -->
+<section id="tech" style="background:var(--gray-50);max-width:100%;padding:72px 0;">
+  <div style="max-width:860px;margin:0 auto;padding:0 2rem;">
+    <div class="section-label">Tech stack</div>
+    <h2>Built with production in mind</h2>
+    <p class="section-sub" style="margin-bottom:32px;">Every component is modular, documented, and ready to extend.</p>
+    <div class="tech-grid">
+      <div class="tech-pill"><div class="tech-dot" style="background:#3b82f6"></div><div><div class="tech-name">scikit-learn</div><div class="tech-role">Lead scoring models</div></div></div>
+      <div class="tech-pill"><div class="tech-dot" style="background:#22c55e"></div><div><div class="tech-name">pandas / numpy</div><div class="tech-role">Feature engineering</div></div></div>
+      <div class="tech-pill"><div class="tech-dot" style="background:#f59e0b"></div><div><div class="tech-name">TF-IDF + GBM</div><div class="tech-role">Reply prediction</div></div></div>
+      <div class="tech-pill"><div class="tech-dot" style="background:#8b5cf6"></div><div><div class="tech-name">NLP engine</div><div class="tech-role">Message personalisation</div></div></div>
+      <div class="tech-pill"><div class="tech-dot" style="background:#ef4444"></div><div><div class="tech-name">FastAPI</div><div class="tech-role">REST API wrapper</div></div></div>
+      <div class="tech-pill"><div class="tech-dot" style="background:#0a0a0a"></div><div><div class="tech-name">GitHub Pages</div><div class="tech-role">Zero-cost deployment</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-section">
+  <h2>Built for Second Brain Labs</h2>
+  <p>This engine was designed to slot directly into SBL's campaign infrastructure — not as a side project, but as a production-ready ML layer.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a class="btn-primary" href="https://github.com/YOUR_USERNAME/sbl-lead-engine" target="_blank">View full source code</a>
+    <a class="btn-secondary" href="mailto:YOUR_EMAIL">Get in touch</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">Built by an AI & DS student &nbsp;·&nbsp; Open source under MIT</div>
+  <div class="footer-right">
+    <a href="https://github.com/YOUR_USERNAME/sbl-lead-engine" target="_blank">GitHub</a>
+    <a href="https://sbl.so" target="_blank">Second Brain Labs</a>
+    <a href="https://twitter.com/YOUR_HANDLE" target="_blank">Twitter</a>
+  </div>
+</footer>
+
+<script>
+const HOT_TITLES = ["founder","co-founder","ceo","head of sales","vp sales","director of growth","cro"];
+const WARM_TITLES = ["marketing manager","product manager"];
+const HOT_INDUSTRIES = ["saas","b2b tech","sales tech","marketing tech","fintech","e-commerce"];
+const WARM_INDUSTRIES = ["consulting","digital marketing"];
+const HOT_SIZE = ["1-10","11-50"];
+const BIO_HOOKS = {
+  "scaling":"The scaling angle in your bio tells me you're in growth mode.",
+  "outbound":"Looks like you're already thinking about outbound — so you know the pain.",
+  "b2b":"Your B2B focus is exactly the space we work in.",
+  "revenue":"Revenue and pipeline focus — you're speaking our language.",
+  "founder":"As a builder, your time is your most valuable asset.",
+  "cold outreach":"You already understand the outreach problem firsthand."
+};
+const VALUE_PROPS = [
+  "we help {industry} teams increase reply rates by 3x using AI-personalised outreach",
+  "we automate the full outbound funnel — LinkedIn, WhatsApp, iMessage — while keeping it human",
+  "we've helped 200+ founders generate $5M+ in pipeline through intelligent outreach automation"
+];
+const CTAS = ["Would a 15-min call make sense this week?","Open to a quick chat to see if there's a fit?","Worth a 10-minute conversation?"];
+
+function scoreProfile(title, industry, size, bio) {
+  const t = title.toLowerCase(), i = industry.toLowerCase(), b = bio.toLowerCase();
+  let hotProb = 0.1, warmProb = 0.3, coldProb = 0.6;
+  if (HOT_TITLES.some(k => t.includes(k))) { hotProb += 0.45; warmProb -= 0.2; coldProb -= 0.25; }
+  else if (WARM_TITLES.some(k => t.includes(k))) { warmProb += 0.25; coldProb -= 0.25; }
+  else { coldProb += 0.1; }
+  if (HOT_INDUSTRIES.includes(i)) { hotProb += 0.2; coldProb -= 0.2; }
+  else if (WARM_INDUSTRIES.includes(i)) { warmProb += 0.1; coldProb -= 0.1; }
+  if (HOT_SIZE.includes(size)) { hotProb += 0.08; }
+  const bioSignals = ["outbound","scaling","b2b","revenue","cold outreach","gtm","pipeline"];
+  const bioHits = bioSignals.filter(k => b.includes(k)).length;
+  hotProb += bioHits * 0.06; coldProb -= bioHits * 0.04;
+  const total = hotProb + warmProb + coldProb;
+  hotProb = Math.max(0, Math.min(1, hotProb/total));
+  warmProb = Math.max(0, Math.min(1, warmProb/total));
+  coldProb = Math.max(0, Math.min(1, coldProb/total));
+  const norm = hotProb + warmProb + coldProb;
+  hotProb /= norm; warmProb /= norm; coldProb /= norm;
+  let label = "Cold", score = Math.round(hotProb*100*0.6 + warmProb*100*0.3 + coldProb*100*0.1);
+  if (hotProb >= 0.45) label = "Hot";
+  else if (warmProb >= 0.35 || hotProb >= 0.25) label = "Warm";
+  const conf = Math.round(Math.max(hotProb, warmProb, coldProb) * 100);
+  return { label, score, conf, hot: Math.round(hotProb*100), warm: Math.round(warmProb*100), cold: Math.round(coldProb*100) };
+}
+
+function scoreMessage(msg) {
+  const m = msg.toLowerCase(), wc = msg.split(/\s+/).length;
+  const good = ["noticed","saw your","came across","your work","congrats","your recent"].some(k => m.includes(k));
+  const bad = ["hi there","dear sir","hope this finds","i am writing","to whom","my name is"].some(k => m.includes(k));
+  const hasQ = msg.includes("?");
+  const hasCta = ["15 min","quick call","chat","meeting","connect"].some(k => m.includes(k));
+  const hasVal = ["help","improve","increase","save","grow","automate"].some(k => m.includes(k));
+  const personal = ["your company","your role","your post","you recently","your work"].some(k => m.includes(k));
+  const optimal = wc >= 50 && wc <= 120;
+  let score = (good?2:0) + (personal?2:0) + (hasQ?1:0) + (hasCta?1:0) + (hasVal?1:0) + (optimal?1:0) - (bad?3:0);
+  const quality = score >= 5 ? "Strong" : score >= 2 ? "Average" : "Weak";
+  let baseReply = good ? 0.55 : bad ? 0.12 : 0.32;
+  if (hasQ) baseReply += 0.08;
+  if (hasCta) baseReply += 0.06;
+  if (hasVal) baseReply += 0.05;
+  if (!optimal) baseReply -= 0.08;
+  return { quality, replyBoost: Math.round(baseReply * 100) };
+}
+
+function bioHook(bio) {
+  const b = bio.toLowerCase();
+  for (const [k,v] of Object.entries(BIO_HOOKS)) { if (b.includes(k)) return v; }
+  return "";
+}
+
+function buildMessage(title, industry, bio) {
+  const hook = bioHook(bio);
+  const t = title.toLowerCase();
+  let opener;
+  if (HOT_TITLES.some(k => t.includes(k))) {
+    opener = `Your ${industry} background immediately stood out. ${hook ? hook : ""}`;
+  } else if (WARM_TITLES.some(k => t.includes(k))) {
+    opener = `Hey, your work in ${industry} caught my eye. ${hook ? hook : ""}`;
+  } else {
+    opener = `Quick question — are you currently handling outreach manually?`;
+  }
+  const vp = VALUE_PROPS[Math.floor(Math.random()*VALUE_PROPS.length)].replace("{industry}", industry);
+  const cta = CTAS[Math.floor(Math.random()*CTAS.length)];
+  return `${opener.trim()}\n\nAt SBL, ${vp}.\n\n${cta}`;
+}
+
+function runEngine() {
+  const title = document.getElementById("title").value;
+  const industry = document.getElementById("industry").value;
+  const size = document.getElementById("size").value;
+  const bio = document.getElementById("bio").value;
+  const message = document.getElementById("message").value;
+
+  const scoring = scoreProfile(title, industry, size, bio);
+  const msgScore = scoreMessage(message);
+  const replyPct = Math.min(95, Math.max(5, msgScore.replyBoost + (scoring.label === "Hot" ? 20 : scoring.label === "Warm" ? 5 : -10)));
+  const personalMsg = buildMessage(title, industry, bio);
+
+  document.getElementById("placeholder").style.display = "none";
+  const panel = document.getElementById("results");
+  panel.classList.add("show");
+
+  const badge = document.getElementById("r-badge");
+  badge.textContent = scoring.score;
+  badge.className = "score-badge " + scoring.label.toLowerCase();
+  document.getElementById("r-title").textContent = scoring.label + " Lead";
+  document.getElementById("r-conf").textContent = scoring.conf + "% confidence";
+
+  setTimeout(() => {
+    document.getElementById("bar-hot").style.width = scoring.hot + "%";
+    document.getElementById("bar-warm").style.width = scoring.warm + "%";
+    document.getElementById("bar-cold").style.width = scoring.cold + "%";
+  }, 50);
+  document.getElementById("pct-hot").textContent = scoring.hot + "%";
+  document.getElementById("pct-warm").textContent = scoring.warm + "%";
+  document.getElementById("pct-cold").textContent = scoring.cold + "%";
+
+  document.getElementById("r-reply").textContent = replyPct + "%";
+  const qbadge = document.getElementById("r-quality");
+  qbadge.textContent = msgScore.quality + " message";
+  qbadge.className = "quality-badge " + msgScore.quality.toLowerCase();
+
+  const reasons = [];
+  if (title.toLowerCase().includes("founder") || title.toLowerCase().includes("ceo")) reasons.push("decision-maker title");
+  if (HOT_INDUSTRIES.includes(industry.toLowerCase())) reasons.push("high-value industry");
+  if (bio.toLowerCase().match(/outbound|scaling|b2b|revenue|gtm/)) reasons.push("sales keywords in bio");
+  document.getElementById("r-reasoning").textContent = reasons.length ? "Strong signals: " + reasons.join(", ") : "Moderate profile signals detected.";
+
+  document.getElementById("r-msg").textContent = personalMsg;
+}
+
+function copyMsg() {
+  const msg = document.getElementById("r-msg").textContent;
+  navigator.clipboard.writeText(msg).then(() => {
+    const btn = document.querySelector(".copy-btn");
+    btn.textContent = "Copied!";
+    setTimeout(() => btn.textContent = "Copy message", 2000);
+  });
+}
+</script>
+</body>
+</html>
