@@ -1,0 +1,601 @@
+job_title,industry,company_size,connections,bio,recent_activity,has_website,posts_per_month,years_experience,reply_probability,label,label_encoded
+VP Sales,E-commerce,1-10,1946,Focused on pipeline and lead gen. Passionate about lead gen.,Shared a cold email template,0,19,11,0.71,hot,2
+Recruiter,Non-profit,201-500,185,Focused on coding and operations. Passionate about operations.,Updated profile picture,0,0,4,0.04,cold,0
+Recruiter,Government,1000+,677,Focused on student and data. Passionate about operations.,Liked a job posting,0,1,7,0.08,cold,0
+Founder,SaaS,1-10,3837,Focused on cold outreach and outbound. Passionate about outbound.,Posted about LinkedIn outreach tips,1,15,12,0.67,hot,2
+CRO,B2B Tech,1-10,3252,Focused on growth hacking and pipeline. Passionate about pipeline.,Published article on B2B lead gen,0,9,13,0.7,hot,2
+Head of Marketing,Consulting,11-50,1069,Focused on strategy and campaigns. Passionate about marketing.,Commented on growth post,1,3,11,0.47,warm,1
+Director of Growth,E-commerce,51-200,2853,Focused on B2B sales and revenue. Passionate about lead gen.,Shared revenue milestone,1,15,4,0.57,hot,2
+Recruiter,Education,501-1000,608,Focused on coding and engineering. Passionate about data.,No posts in 90 days,0,2,5,0.1,cold,0
+CRO,Fintech,11-50,721,Focused on B2B sales and lead gen. Passionate about lead gen.,Published article on B2B lead gen,1,15,5,0.63,hot,2
+Head of Marketing,Digital Marketing,11-50,368,Focused on strategy and digital. Passionate about business development.,Liked a marketing strategy post,0,4,12,0.32,warm,1
+Head of Sales,SaaS,1-10,1229,Focused on GTM and scaling. Passionate about growth hacking.,Shared revenue milestone,1,8,11,0.84,hot,2
+Founder,SaaS,11-50,4440,Focused on cold outreach and growth hacking. Passionate about revenue.,Shared revenue milestone,1,10,3,0.76,hot,2
+Co-Founder,SaaS,11-50,1714,Focused on cold outreach and revenue. Passionate about scaling.,Shared revenue milestone,1,14,11,0.86,hot,2
+Software Engineer,Manufacturing,501-1000,196,Focused on learning and student. Passionate about coding.,Updated profile picture,0,2,7,0.01,cold,0
+Marketing Manager,Consulting,51-200,1186,Focused on digital and marketing. Passionate about marketing.,Liked a marketing strategy post,1,3,9,0.31,warm,1
+Head of Marketing,Retail Tech,51-200,1099,Focused on strategy and digital. Passionate about partnerships.,Liked a marketing strategy post,1,8,3,0.38,warm,1
+Co-Founder,Fintech,51-200,345,Focused on cold outreach and B2B sales. Passionate about outbound.,Posted about LinkedIn outreach tips,1,11,3,0.87,hot,2
+Head of Marketing,Insurance,11-50,693,Focused on business development and partnerships. Passionate about partnerships.,Liked a marketing strategy post,0,6,3,0.22,warm,1
+Director of Growth,E-commerce,51-200,1540,Focused on scaling and pipeline. Passionate about cold outreach.,Shared revenue milestone,1,18,4,0.76,hot,2
+VP Sales,Marketing Tech,1-10,3162,Focused on outbound and GTM. Passionate about GTM.,Published article on B2B lead gen,1,8,5,0.61,hot,2
+Head of Sales,Marketing Tech,1-10,3400,Focused on growth hacking and scaling. Passionate about lead gen.,Posted about LinkedIn outreach tips,1,15,3,0.82,hot,2
+Software Engineer,Manufacturing,201-500,483,Focused on learning and operations. Passionate about recruiting.,Liked a job posting,0,2,6,0.12,cold,0
+Software Engineer,Manufacturing,501-1000,747,Focused on engineering and learning. Passionate about operations.,No posts in 90 days,0,0,6,0.06,cold,0
+Student,Manufacturing,1-10,180,Focused on engineering and operations. Passionate about building products.,No posts in 90 days,0,3,1,0.1,cold,0
+Head of Marketing,Consulting,51-200,997,Focused on business development and digital. Passionate about digital.,Liked a marketing strategy post,1,6,5,0.3,warm,1
+Software Engineer,Education,1000+,370,Focused on student and recruiting. Passionate about operations.,No recent activity,0,3,6,0.02,cold,0
+CRO,Marketing Tech,1-10,2571,Focused on lead gen and pipeline. Passionate about pipeline.,Shared a cold email template,1,12,13,0.56,hot,2
+Head of Sales,Fintech,51-200,3360,Focused on cold outreach and pipeline. Passionate about pipeline.,Shared revenue milestone,1,19,13,0.73,hot,2
+HR Manager,Government,201-500,772,Focused on operations and data. Passionate about data.,Liked a job posting,0,2,6,0.18,cold,0
+Data Analyst,Government,501-1000,705,Focused on student and building products. Passionate about operations.,No posts in 90 days,0,3,3,0.02,cold,0
+Software Engineer,Government,1000+,289,Focused on operations and coding. Passionate about data.,No posts in 90 days,0,2,1,0.14,cold,0
+Director of Growth,E-commerce,11-50,2686,Focused on pipeline and scaling. Passionate about revenue.,Posted about LinkedIn outreach tips,1,17,13,0.64,hot,2
+CRO,Marketing Tech,1-10,3127,Focused on B2B sales and growth hacking. Passionate about outbound.,Shared revenue milestone,0,19,6,0.55,hot,2
+CMO,Real Estate,201-500,1271,Focused on strategy and campaigns. Passionate about campaigns.,Shared industry news,1,4,6,0.51,warm,1
+Head of Sales,B2B Tech,11-50,1529,Focused on revenue and scaling. Passionate about scaling.,Shared a cold email template,1,5,8,0.87,hot,2
+Software Engineer,Non-profit,1-10,233,Focused on data and coding. Passionate about operations.,No posts in 90 days,0,2,1,0.15,cold,0
+VP Sales,Fintech,1-10,1737,Focused on lead gen and growth hacking. Passionate about growth hacking.,Shared revenue milestone,1,20,9,0.61,hot,2
+Finance Manager,Government,1000+,701,Focused on learning and recruiting. Passionate about operations.,No posts in 90 days,0,3,8,0.03,cold,0
+Data Analyst,Manufacturing,501-1000,431,Focused on operations and learning. Passionate about coding.,No posts in 90 days,0,1,2,0.1,cold,0
+Business Development Manager,Real Estate,51-200,425,Focused on partnerships and business development. Passionate about business development.,Commented on growth post,1,8,6,0.39,warm,1
+Business Development Manager,Insurance,11-50,833,Focused on business development and campaigns. Passionate about campaigns.,Shared industry news,1,1,6,0.47,warm,1
+CRO,E-commerce,1-10,500,Focused on growth hacking and revenue. Passionate about revenue.,Posted about LinkedIn outreach tips,0,19,9,0.8,hot,2
+Data Analyst,Non-profit,501-1000,343,Focused on learning and student. Passionate about coding.,Liked a job posting,0,2,5,0.12,cold,0
+Software Engineer,Government,201-500,501,Focused on data and coding. Passionate about operations.,Updated profile picture,0,0,3,0.09,cold,0
+CRO,E-commerce,1-10,493,Focused on lead gen and growth hacking. Passionate about B2B sales.,Shared a cold email template,0,12,8,0.69,hot,2
+Co-Founder,Sales Tech,1-10,1387,Focused on outbound and scaling. Passionate about scaling.,Shared a cold email template,1,18,14,0.9,hot,2
+Software Engineer,Education,201-500,695,Focused on operations and engineering. Passionate about student.,No posts in 90 days,0,3,4,0.07,cold,0
+Head of Sales,Sales Tech,11-50,1830,Focused on B2B sales and GTM. Passionate about lead gen.,Shared revenue milestone,1,15,14,0.7,hot,2
+CEO,Sales Tech,11-50,1931,Focused on growth hacking and B2B sales. Passionate about lead gen.,Shared revenue milestone,1,7,12,0.9,hot,2
+Student,Healthcare,1000+,695,Focused on learning and coding. Passionate about data.,No posts in 90 days,0,2,3,0.13,cold,0
+Product Manager,Digital Marketing,201-500,1475,Focused on marketing and business development. Passionate about business development.,Liked a marketing strategy post,0,5,7,0.24,warm,1
+CMO,Retail Tech,201-500,1307,Focused on partnerships and digital. Passionate about marketing.,Liked a marketing strategy post,1,2,5,0.32,warm,1
+Founder,Fintech,11-50,3358,Focused on GTM and scaling. Passionate about B2B sales.,Published article on B2B lead gen,1,15,6,0.82,hot,2
+Student,Manufacturing,1-10,333,Focused on recruiting and learning. Passionate about learning.,Liked a job posting,0,0,8,0.05,cold,0
+Software Engineer,Non-profit,1-10,333,Focused on building products and data. Passionate about data.,No recent activity,0,1,1,0.01,cold,0
+Business Development Manager,Retail Tech,51-200,239,Focused on strategy and partnerships. Passionate about brand.,Liked a marketing strategy post,1,3,2,0.3,warm,1
+Business Development Manager,Retail Tech,11-50,839,Focused on business development and digital. Passionate about partnerships.,Shared industry news,0,7,7,0.44,warm,1
+Director of Growth,Marketing Tech,1-10,4913,Focused on lead gen and pipeline. Passionate about pipeline.,Shared revenue milestone,1,14,3,0.63,hot,2
+VP Sales,Sales Tech,11-50,4919,Focused on cold outreach and scaling. Passionate about outbound.,Posted about LinkedIn outreach tips,1,13,7,0.75,hot,2
+Co-Founder,SaaS,11-50,495,Focused on GTM and revenue. Passionate about revenue.,Shared a cold email template,1,4,15,0.85,hot,2
+Co-Founder,Sales Tech,11-50,4015,Focused on outbound and revenue. Passionate about B2B sales.,Shared revenue milestone,1,7,8,0.68,hot,2
+CRO,E-commerce,1-10,786,Focused on B2B sales and pipeline. Passionate about outbound.,Published article on B2B lead gen,1,9,7,0.88,hot,2
+Product Manager,Digital Marketing,201-500,348,Focused on business development and digital. Passionate about digital.,Liked a marketing strategy post,1,4,12,0.39,warm,1
+Software Engineer,Healthcare,1-10,334,Focused on student and engineering. Passionate about recruiting.,No posts in 90 days,0,0,5,0.02,cold,0
+Data Analyst,Non-profit,1-10,396,Focused on building products and coding. Passionate about operations.,Liked a job posting,0,1,2,0.18,cold,0
+Head of Sales,Sales Tech,1-10,3271,Focused on scaling and lead gen. Passionate about outbound.,Posted about LinkedIn outreach tips,1,15,9,0.89,hot,2
+Recruiter,Manufacturing,1000+,77,Focused on coding and learning. Passionate about learning.,Liked a job posting,0,3,3,0.06,cold,0
+Finance Manager,Government,1000+,224,Focused on learning and recruiting. Passionate about recruiting.,Liked a job posting,0,1,2,0.1,cold,0
+VP Sales,Marketing Tech,1-10,730,Focused on growth hacking and lead gen. Passionate about B2B sales.,Shared a cold email template,0,5,10,0.72,hot,2
+Marketing Manager,Consulting,201-500,195,Focused on brand and digital. Passionate about marketing.,Liked a marketing strategy post,1,5,9,0.28,warm,1
+Business Development Manager,Insurance,11-50,1979,Focused on brand and strategy. Passionate about business development.,Commented on growth post,1,8,10,0.34,warm,1
+Founder,SaaS,1-10,1552,Focused on GTM and cold outreach. Passionate about cold outreach.,Shared a cold email template,1,17,9,0.74,hot,2
+HR Manager,Government,501-1000,565,Focused on engineering and learning. Passionate about building products.,No posts in 90 days,0,0,7,0.1,cold,0
+Product Manager,Consulting,51-200,952,Focused on marketing and strategy. Passionate about strategy.,Liked a marketing strategy post,1,6,5,0.23,warm,1
+Student,Healthcare,1000+,316,Focused on coding and data. Passionate about data.,Updated profile picture,0,0,5,0.04,cold,0
+Software Engineer,Healthcare,201-500,218,Focused on coding and operations. Passionate about engineering.,Updated profile picture,0,0,6,0.16,cold,0
+Head of Marketing,Insurance,201-500,615,Focused on campaigns and strategy. Passionate about digital.,Liked a marketing strategy post,1,7,6,0.2,warm,1
+Business Development Manager,Retail Tech,201-500,776,Focused on digital and brand. Passionate about marketing.,Liked a marketing strategy post,0,5,10,0.31,warm,1
+Finance Manager,Non-profit,501-1000,383,Focused on operations and building products. Passionate about engineering.,No recent activity,0,1,6,0.19,cold,0
+Software Engineer,Government,1-10,672,Focused on engineering and student. Passionate about data.,Liked a job posting,0,2,1,0.11,cold,0
+Business Development Manager,Digital Marketing,201-500,347,Focused on campaigns and business development. Passionate about business development.,Liked a marketing strategy post,1,2,12,0.51,warm,1
+Recruiter,Education,501-1000,243,Focused on operations and engineering. Passionate about learning.,No recent activity,0,2,5,0.13,cold,0
+Student,Non-profit,1-10,758,Focused on student and operations. Passionate about building products.,Updated profile picture,0,2,8,0.18,cold,0
+CMO,Consulting,51-200,1114,Focused on business development and marketing. Passionate about strategy.,Liked a marketing strategy post,0,6,5,0.41,warm,1
+Co-Founder,B2B Tech,1-10,1338,Focused on lead gen and scaling. Passionate about scaling.,Shared revenue milestone,1,6,15,0.76,hot,2
+Director of Growth,B2B Tech,1-10,4444,Focused on scaling and lead gen. Passionate about revenue.,Published article on B2B lead gen,0,17,9,0.8,hot,2
+Co-Founder,Marketing Tech,1-10,4942,Focused on pipeline and B2B sales. Passionate about GTM.,Shared revenue milestone,1,14,15,0.81,hot,2
+Marketing Manager,Real Estate,201-500,276,Focused on strategy and business development. Passionate about digital.,Liked a marketing strategy post,1,2,10,0.53,warm,1
+Marketing Manager,Digital Marketing,201-500,224,Focused on brand and marketing. Passionate about campaigns.,Shared industry news,0,2,2,0.31,warm,1
+CMO,Digital Marketing,51-200,778,Focused on partnerships and campaigns. Passionate about brand.,Commented on growth post,1,3,11,0.49,warm,1
+Marketing Manager,Real Estate,51-200,1316,Focused on marketing and brand. Passionate about partnerships.,Shared industry news,0,2,12,0.31,warm,1
+Data Analyst,Education,501-1000,60,Focused on learning and building products. Passionate about engineering.,No recent activity,0,0,7,0.04,cold,0
+CRO,Sales Tech,51-200,594,Focused on B2B sales and lead gen. Passionate about GTM.,Posted about LinkedIn outreach tips,0,13,9,0.71,hot,2
+CMO,Real Estate,51-200,524,Focused on campaigns and digital. Passionate about strategy.,Commented on growth post,0,3,8,0.52,warm,1
+Product Manager,Insurance,11-50,258,Focused on digital and strategy. Passionate about campaigns.,Commented on growth post,0,3,6,0.49,warm,1
+Head of Marketing,Retail Tech,201-500,1317,Focused on digital and marketing. Passionate about business development.,Liked a marketing strategy post,0,6,6,0.53,warm,1
+Marketing Manager,Digital Marketing,201-500,611,Focused on marketing and brand. Passionate about campaigns.,Commented on growth post,0,1,4,0.4,warm,1
+VP Sales,E-commerce,1-10,881,Focused on GTM and revenue. Passionate about revenue.,Posted about LinkedIn outreach tips,0,5,11,0.78,hot,2
+Recruiter,Government,501-1000,264,Focused on coding and student. Passionate about student.,No posts in 90 days,0,3,0,0.18,cold,0
+CEO,B2B Tech,11-50,1282,Focused on revenue and pipeline. Passionate about B2B sales.,Posted about LinkedIn outreach tips,1,17,9,0.73,hot,2
+Head of Sales,Marketing Tech,51-200,1600,Focused on revenue and cold outreach. Passionate about cold outreach.,Published article on B2B lead gen,0,13,15,0.83,hot,2
+Product Manager,Real Estate,201-500,562,Focused on brand and marketing. Passionate about strategy.,Liked a marketing strategy post,0,6,4,0.46,warm,1
+Software Engineer,Non-profit,201-500,398,Focused on operations and learning. Passionate about building products.,No recent activity,0,0,7,0.15,cold,0
+Business Development Manager,Digital Marketing,51-200,1841,Focused on brand and partnerships. Passionate about digital.,Commented on growth post,1,5,11,0.23,warm,1
+Founder,B2B Tech,51-200,2152,Focused on lead gen and GTM. Passionate about GTM.,Shared revenue milestone,1,4,5,0.87,hot,2
+HR Manager,Government,1000+,624,Focused on recruiting and data. Passionate about data.,No recent activity,0,3,4,0.04,cold,0
+CEO,Sales Tech,51-200,4760,Focused on scaling and GTM. Passionate about GTM.,Shared revenue milestone,1,11,8,0.62,hot,2
+Head of Marketing,Real Estate,51-200,1773,Focused on campaigns and strategy. Passionate about strategy.,Shared industry news,1,3,5,0.37,warm,1
+Marketing Manager,Consulting,51-200,1618,Focused on partnerships and business development. Passionate about business development.,Shared industry news,0,1,6,0.22,warm,1
+Software Engineer,Healthcare,1000+,254,Focused on operations and building products. Passionate about building products.,No posts in 90 days,0,3,0,0.17,cold,0
+Head of Sales,B2B Tech,1-10,1040,Focused on cold outreach and growth hacking. Passionate about growth hacking.,Shared a cold email template,1,13,8,0.8,hot,2
+Recruiter,Government,1000+,470,Focused on data and operations. Passionate about operations.,Updated profile picture,0,3,2,0.06,cold,0
+Student,Non-profit,1-10,779,Focused on learning and data. Passionate about data.,Liked a job posting,0,2,2,0.07,cold,0
+Recruiter,Manufacturing,1-10,468,Focused on operations and engineering. Passionate about data.,No recent activity,0,1,4,0.15,cold,0
+Head of Marketing,Consulting,201-500,1703,Focused on marketing and campaigns. Passionate about campaigns.,Shared industry news,1,6,6,0.38,warm,1
+Business Development Manager,Real Estate,11-50,221,Focused on brand and campaigns. Passionate about marketing.,Liked a marketing strategy post,0,8,4,0.52,warm,1
+Head of Marketing,Digital Marketing,51-200,1412,Focused on campaigns and partnerships. Passionate about marketing.,Shared industry news,1,1,12,0.25,warm,1
+CEO,Marketing Tech,51-200,3720,Focused on pipeline and scaling. Passionate about scaling.,Published article on B2B lead gen,0,14,12,0.74,hot,2
+HR Manager,Healthcare,201-500,239,Focused on student and recruiting. Passionate about data.,No recent activity,0,3,0,0.08,cold,0
+HR Manager,Non-profit,201-500,415,Focused on coding and building products. Passionate about building products.,Liked a job posting,0,2,5,0.02,cold,0
+Founder,Marketing Tech,51-200,1860,Focused on cold outreach and lead gen. Passionate about lead gen.,Posted about LinkedIn outreach tips,0,5,15,0.63,hot,2
+VP Sales,SaaS,1-10,4281,Focused on revenue and scaling. Passionate about outbound.,Posted about LinkedIn outreach tips,1,8,11,0.73,hot,2
+Business Development Manager,Consulting,51-200,785,Focused on campaigns and brand. Passionate about marketing.,Commented on growth post,1,8,4,0.51,warm,1
+HR Manager,Education,1-10,151,Focused on operations and engineering. Passionate about engineering.,Liked a job posting,0,1,2,0.07,cold,0
+Head of Sales,SaaS,51-200,4695,Focused on GTM and B2B sales. Passionate about lead gen.,Shared a cold email template,0,13,15,0.66,hot,2
+VP Sales,Marketing Tech,11-50,1399,Focused on growth hacking and cold outreach. Passionate about lead gen.,Shared revenue milestone,0,7,14,0.8,hot,2
+Software Engineer,Government,201-500,746,Focused on learning and coding. Passionate about coding.,No recent activity,0,1,0,0.08,cold,0
+Head of Marketing,Digital Marketing,201-500,701,Focused on strategy and digital. Passionate about digital.,Liked a marketing strategy post,1,8,5,0.27,warm,1
+HR Manager,Manufacturing,1000+,747,Focused on coding and operations. Passionate about building products.,Liked a job posting,0,1,1,0.13,cold,0
+Software Engineer,Manufacturing,1-10,591,Focused on engineering and recruiting. Passionate about coding.,Liked a job posting,0,1,0,0.19,cold,0
+Founder,Sales Tech,1-10,4066,Focused on lead gen and outbound. Passionate about GTM.,Posted about LinkedIn outreach tips,1,17,7,0.56,hot,2
+Software Engineer,Education,201-500,584,Focused on coding and operations. Passionate about recruiting.,No recent activity,0,3,6,0.07,cold,0
+Founder,B2B Tech,51-200,1339,Focused on outbound and pipeline. Passionate about revenue.,Shared a cold email template,0,14,10,0.77,hot,2
+Director of Growth,Fintech,1-10,1065,Focused on revenue and growth hacking. Passionate about scaling.,Shared revenue milestone,0,19,14,0.72,hot,2
+HR Manager,Non-profit,1000+,546,Focused on recruiting and learning. Passionate about engineering.,Updated profile picture,0,0,7,0.1,cold,0
+Co-Founder,Sales Tech,11-50,790,Focused on growth hacking and outbound. Passionate about GTM.,Shared a cold email template,1,6,11,0.71,hot,2
+VP Sales,E-commerce,1-10,1333,Focused on outbound and GTM. Passionate about pipeline.,Published article on B2B lead gen,1,14,10,0.58,hot,2
+Director of Growth,SaaS,11-50,4878,Focused on B2B sales and pipeline. Passionate about growth hacking.,Shared revenue milestone,1,14,13,0.73,hot,2
+Business Development Manager,Insurance,201-500,1140,Focused on digital and campaigns. Passionate about business development.,Liked a marketing strategy post,1,8,3,0.22,warm,1
+Director of Growth,SaaS,51-200,4103,Focused on GTM and lead gen. Passionate about outbound.,Published article on B2B lead gen,1,7,3,0.59,hot,2
+Founder,Sales Tech,11-50,4027,Focused on scaling and pipeline. Passionate about revenue.,Published article on B2B lead gen,1,19,7,0.75,hot,2
+Marketing Manager,Retail Tech,11-50,1441,Focused on strategy and brand. Passionate about business development.,Commented on growth post,1,6,9,0.51,warm,1
+Head of Sales,B2B Tech,11-50,1137,Focused on scaling and growth hacking. Passionate about growth hacking.,Shared a cold email template,0,17,4,0.67,hot,2
+VP Sales,SaaS,11-50,4082,Focused on growth hacking and scaling. Passionate about pipeline.,Shared revenue milestone,0,15,13,0.68,hot,2
+Software Engineer,Education,201-500,206,Focused on data and engineering. Passionate about learning.,No posts in 90 days,0,0,3,0.05,cold,0
+Founder,B2B Tech,11-50,3725,Focused on pipeline and outbound. Passionate about outbound.,Shared a cold email template,1,9,6,0.9,hot,2
+CMO,Real Estate,11-50,1913,Focused on marketing and partnerships. Passionate about partnerships.,Shared industry news,1,7,7,0.34,warm,1
+Recruiter,Education,1000+,683,Focused on data and engineering. Passionate about engineering.,No recent activity,0,0,0,0.17,cold,0
+Director of Growth,E-commerce,1-10,3698,Focused on B2B sales and pipeline. Passionate about pipeline.,Shared revenue milestone,0,18,6,0.87,hot,2
+Co-Founder,E-commerce,1-10,1139,Focused on outbound and scaling. Passionate about pipeline.,Posted about LinkedIn outreach tips,1,5,6,0.76,hot,2
+Recruiter,Non-profit,1000+,675,Focused on operations and data. Passionate about learning.,No recent activity,0,0,6,0.14,cold,0
+Software Engineer,Education,1-10,737,Focused on student and learning. Passionate about recruiting.,No posts in 90 days,0,3,6,0.04,cold,0
+Business Development Manager,Retail Tech,201-500,250,Focused on partnerships and marketing. Passionate about campaigns.,Liked a marketing strategy post,0,5,4,0.3,warm,1
+CMO,Digital Marketing,51-200,1718,Focused on campaigns and brand. Passionate about business development.,Commented on growth post,1,6,8,0.45,warm,1
+Recruiter,Manufacturing,201-500,116,Focused on engineering and operations. Passionate about recruiting.,Liked a job posting,0,2,8,0.14,cold,0
+Marketing Manager,Insurance,51-200,690,Focused on digital and partnerships. Passionate about partnerships.,Shared industry news,0,1,12,0.34,warm,1
+CRO,SaaS,11-50,2020,Focused on growth hacking and lead gen. Passionate about lead gen.,Shared a cold email template,1,15,6,0.86,hot,2
+Recruiter,Healthcare,1-10,663,Focused on building products and recruiting. Passionate about student.,Liked a job posting,0,2,5,0.03,cold,0
+CEO,Fintech,11-50,3566,Focused on pipeline and lead gen. Passionate about cold outreach.,Shared a cold email template,1,20,6,0.64,hot,2
+Director of Growth,E-commerce,11-50,4196,Focused on GTM and scaling. Passionate about growth hacking.,Shared a cold email template,1,18,14,0.78,hot,2
+Head of Marketing,Consulting,11-50,1554,Focused on digital and campaigns. Passionate about partnerships.,Shared industry news,0,3,7,0.51,warm,1
+CMO,Digital Marketing,201-500,1308,Focused on marketing and brand. Passionate about digital.,Liked a marketing strategy post,1,6,7,0.26,warm,1
+CEO,SaaS,1-10,4054,Focused on pipeline and growth hacking. Passionate about revenue.,Posted about LinkedIn outreach tips,0,10,8,0.68,hot,2
+Student,Healthcare,501-1000,268,Focused on learning and data. Passionate about recruiting.,No recent activity,0,0,2,0.15,cold,0
+Marketing Manager,Real Estate,11-50,1918,Focused on strategy and partnerships. Passionate about digital.,Commented on growth post,0,4,2,0.47,warm,1
+CRO,Sales Tech,1-10,4907,Focused on growth hacking and pipeline. Passionate about pipeline.,Shared revenue milestone,1,20,6,0.67,hot,2
+Marketing Manager,Insurance,201-500,1348,Focused on strategy and digital. Passionate about marketing.,Shared industry news,0,6,8,0.34,warm,1
+Business Development Manager,Real Estate,201-500,1500,Focused on marketing and brand. Passionate about strategy.,Shared industry news,1,6,4,0.31,warm,1
+Finance Manager,Manufacturing,501-1000,651,Focused on building products and data. Passionate about coding.,Liked a job posting,0,0,3,0.17,cold,0
+Head of Marketing,Retail Tech,201-500,1566,Focused on brand and partnerships. Passionate about partnerships.,Commented on growth post,1,8,3,0.31,warm,1
+CMO,Insurance,51-200,1823,Focused on campaigns and brand. Passionate about brand.,Liked a marketing strategy post,0,8,9,0.24,warm,1
+Head of Marketing,Consulting,201-500,1235,Focused on business development and marketing. Passionate about campaigns.,Shared industry news,0,7,11,0.34,warm,1
+Finance Manager,Government,501-1000,746,Focused on coding and student. Passionate about student.,No posts in 90 days,0,2,8,0.11,cold,0
+Finance Manager,Manufacturing,1-10,577,Focused on learning and data. Passionate about student.,No posts in 90 days,0,3,8,0.05,cold,0
+Head of Sales,E-commerce,51-200,4256,Focused on pipeline and lead gen. Passionate about B2B sales.,Published article on B2B lead gen,1,18,4,0.83,hot,2
+Co-Founder,B2B Tech,51-200,1373,Focused on cold outreach and GTM. Passionate about scaling.,Published article on B2B lead gen,1,19,13,0.8,hot,2
+Software Engineer,Non-profit,201-500,236,Focused on building products and learning. Passionate about coding.,No posts in 90 days,0,3,5,0.12,cold,0
+CRO,Sales Tech,1-10,835,Focused on pipeline and scaling. Passionate about GTM.,Shared revenue milestone,1,5,15,0.58,hot,2
+Co-Founder,E-commerce,11-50,4283,Focused on lead gen and growth hacking. Passionate about growth hacking.,Shared a cold email template,0,8,7,0.82,hot,2
+CMO,Digital Marketing,11-50,1216,Focused on campaigns and digital. Passionate about partnerships.,Liked a marketing strategy post,1,7,7,0.5,warm,1
+Founder,SaaS,51-200,1824,Focused on lead gen and growth hacking. Passionate about outbound.,Shared revenue milestone,1,7,14,0.9,hot,2
+Head of Marketing,Digital Marketing,51-200,1472,Focused on digital and brand. Passionate about brand.,Commented on growth post,0,4,3,0.43,warm,1
+Software Engineer,Government,1-10,164,Focused on engineering and building products. Passionate about data.,No recent activity,0,0,2,0.16,cold,0
+Recruiter,Non-profit,201-500,780,Focused on data and learning. Passionate about student.,No posts in 90 days,0,0,0,0.02,cold,0
+Student,Non-profit,201-500,254,Focused on recruiting and engineering. Passionate about building products.,Liked a job posting,0,3,4,0.1,cold,0
+Business Development Manager,Digital Marketing,11-50,1287,Focused on campaigns and brand. Passionate about partnerships.,Shared industry news,1,7,12,0.25,warm,1
+Marketing Manager,Retail Tech,201-500,1808,Focused on partnerships and marketing. Passionate about brand.,Liked a marketing strategy post,1,8,11,0.27,warm,1
+Software Engineer,Government,501-1000,493,Focused on student and engineering. Passionate about data.,Updated profile picture,0,3,8,0.09,cold,0
+CMO,Insurance,51-200,1733,Focused on business development and marketing. Passionate about digital.,Commented on growth post,1,6,10,0.43,warm,1
+Marketing Manager,Retail Tech,201-500,1122,Focused on digital and business development. Passionate about campaigns.,Commented on growth post,1,2,5,0.53,warm,1
+Student,Manufacturing,1-10,55,Focused on student and data. Passionate about data.,Updated profile picture,0,2,5,0.03,cold,0
+Data Analyst,Education,501-1000,362,Focused on recruiting and coding. Passionate about student.,Updated profile picture,0,3,2,0.15,cold,0
+Head of Sales,Sales Tech,11-50,4725,Focused on GTM and pipeline. Passionate about pipeline.,Shared revenue milestone,1,8,10,0.88,hot,2
+Marketing Manager,Digital Marketing,201-500,1717,Focused on digital and business development. Passionate about campaigns.,Liked a marketing strategy post,1,6,2,0.54,warm,1
+Software Engineer,Healthcare,1-10,787,Focused on student and operations. Passionate about learning.,Liked a job posting,0,0,4,0.1,cold,0
+CMO,Consulting,201-500,639,Focused on campaigns and marketing. Passionate about digital.,Commented on growth post,1,3,4,0.45,warm,1
+Software Engineer,Non-profit,1000+,472,Focused on learning and student. Passionate about data.,Updated profile picture,0,1,8,0.02,cold,0
+Head of Marketing,Digital Marketing,51-200,1156,Focused on business development and strategy. Passionate about partnerships.,Shared industry news,0,4,2,0.52,warm,1
+HR Manager,Non-profit,1000+,747,Focused on data and recruiting. Passionate about learning.,Updated profile picture,0,0,2,0.14,cold,0
+Director of Growth,Fintech,51-200,4318,Focused on lead gen and growth hacking. Passionate about revenue.,Shared revenue milestone,0,15,14,0.61,hot,2
+CEO,Sales Tech,1-10,3682,Focused on outbound and revenue. Passionate about cold outreach.,Shared a cold email template,1,19,11,0.66,hot,2
+HR Manager,Non-profit,201-500,683,Focused on coding and building products. Passionate about data.,Liked a job posting,0,1,2,0.04,cold,0
+Data Analyst,Healthcare,1-10,301,Focused on engineering and student. Passionate about coding.,Updated profile picture,0,3,0,0.05,cold,0
+CRO,E-commerce,1-10,2568,Focused on lead gen and B2B sales. Passionate about pipeline.,Posted about LinkedIn outreach tips,0,13,6,0.62,hot,2
+Product Manager,Digital Marketing,51-200,1151,Focused on campaigns and strategy. Passionate about marketing.,Commented on growth post,1,6,6,0.3,warm,1
+CMO,Consulting,11-50,946,Focused on business development and digital. Passionate about campaigns.,Commented on growth post,0,3,8,0.22,warm,1
+Head of Marketing,Retail Tech,11-50,1916,Focused on strategy and brand. Passionate about business development.,Commented on growth post,1,8,8,0.22,warm,1
+Head of Marketing,Real Estate,201-500,855,Focused on strategy and brand. Passionate about business development.,Commented on growth post,0,2,4,0.27,warm,1
+Product Manager,Digital Marketing,201-500,1888,Focused on partnerships and strategy. Passionate about marketing.,Shared industry news,1,2,5,0.53,warm,1
+Software Engineer,Education,201-500,181,Focused on operations and building products. Passionate about data.,Liked a job posting,0,1,1,0.09,cold,0
+Recruiter,Manufacturing,501-1000,560,Focused on building products and student. Passionate about engineering.,No posts in 90 days,0,2,7,0.1,cold,0
+Data Analyst,Healthcare,201-500,512,Focused on learning and operations. Passionate about coding.,Liked a job posting,0,2,2,0.18,cold,0
+Data Analyst,Government,201-500,104,Focused on engineering and learning. Passionate about data.,Updated profile picture,0,1,7,0.15,cold,0
+Founder,SaaS,51-200,2468,Focused on lead gen and scaling. Passionate about cold outreach.,Shared a cold email template,1,17,13,0.77,hot,2
+Head of Marketing,Insurance,11-50,220,Focused on brand and digital. Passionate about digital.,Commented on growth post,1,5,10,0.22,warm,1
+Head of Sales,Marketing Tech,1-10,2271,Focused on outbound and scaling. Passionate about lead gen.,Shared a cold email template,0,5,6,0.7,hot,2
+Product Manager,Retail Tech,51-200,687,Focused on marketing and strategy. Passionate about campaigns.,Liked a marketing strategy post,0,3,10,0.37,warm,1
+CRO,B2B Tech,51-200,3086,Focused on scaling and outbound. Passionate about growth hacking.,Posted about LinkedIn outreach tips,0,9,14,0.82,hot,2
+Student,Manufacturing,1-10,633,Focused on building products and student. Passionate about student.,Liked a job posting,0,0,2,0.18,cold,0
+VP Sales,Fintech,51-200,364,Focused on cold outreach and growth hacking. Passionate about growth hacking.,Published article on B2B lead gen,1,7,4,0.6,hot,2
+Co-Founder,Sales Tech,11-50,1449,Focused on GTM and pipeline. Passionate about growth hacking.,Shared a cold email template,0,18,3,0.62,hot,2
+HR Manager,Healthcare,501-1000,255,Focused on data and coding. Passionate about coding.,No posts in 90 days,0,3,4,0.15,cold,0
+Co-Founder,Sales Tech,1-10,4463,Focused on revenue and cold outreach. Passionate about growth hacking.,Shared a cold email template,1,12,15,0.84,hot,2
+Business Development Manager,Digital Marketing,51-200,396,Focused on campaigns and digital. Passionate about digital.,Commented on growth post,1,1,5,0.4,warm,1
+Head of Marketing,Insurance,51-200,1927,Focused on business development and digital. Passionate about digital.,Liked a marketing strategy post,1,1,6,0.21,warm,1
+Recruiter,Non-profit,1-10,455,Focused on operations and building products. Passionate about coding.,No posts in 90 days,0,0,6,0.14,cold,0
+Product Manager,Real Estate,201-500,465,Focused on business development and partnerships. Passionate about marketing.,Commented on growth post,1,3,7,0.47,warm,1
+CMO,Digital Marketing,11-50,1491,Focused on marketing and digital. Passionate about digital.,Shared industry news,0,5,4,0.38,warm,1
+Director of Growth,Sales Tech,1-10,2212,Focused on growth hacking and GTM. Passionate about GTM.,Published article on B2B lead gen,1,10,11,0.87,hot,2
+Head of Marketing,Insurance,201-500,1238,Focused on campaigns and partnerships. Passionate about marketing.,Liked a marketing strategy post,0,8,5,0.3,warm,1
+Co-Founder,Marketing Tech,11-50,613,Focused on lead gen and scaling. Passionate about pipeline.,Posted about LinkedIn outreach tips,1,15,12,0.68,hot,2
+Finance Manager,Education,1-10,184,Focused on building products and engineering. Passionate about engineering.,No recent activity,0,2,2,0.16,cold,0
+Product Manager,Insurance,11-50,492,Focused on business development and campaigns. Passionate about brand.,Liked a marketing strategy post,1,1,12,0.27,warm,1
+Student,Non-profit,1-10,243,Focused on student and learning. Passionate about building products.,Liked a job posting,0,1,4,0.04,cold,0
+Finance Manager,Non-profit,1-10,682,Focused on coding and recruiting. Passionate about data.,No posts in 90 days,0,3,6,0.17,cold,0
+Director of Growth,Sales Tech,11-50,4848,Focused on outbound and revenue. Passionate about revenue.,Shared a cold email template,1,19,4,0.69,hot,2
+Finance Manager,Non-profit,1000+,225,Focused on coding and data. Passionate about student.,Updated profile picture,0,1,2,0.11,cold,0
+CMO,Consulting,11-50,1673,Focused on strategy and partnerships. Passionate about digital.,Shared industry news,0,4,11,0.45,warm,1
+Data Analyst,Non-profit,201-500,645,Focused on operations and recruiting. Passionate about recruiting.,No recent activity,0,3,0,0.17,cold,0
+CMO,Real Estate,201-500,1980,Focused on strategy and campaigns. Passionate about marketing.,Commented on growth post,1,6,11,0.25,warm,1
+Finance Manager,Healthcare,1000+,335,Focused on engineering and operations. Passionate about operations.,Liked a job posting,0,0,1,0.11,cold,0
+Business Development Manager,Real Estate,11-50,1343,Focused on digital and business development. Passionate about partnerships.,Liked a marketing strategy post,1,7,2,0.51,warm,1
+HR Manager,Manufacturing,201-500,525,Focused on building products and recruiting. Passionate about recruiting.,Liked a job posting,0,1,7,0.1,cold,0
+Founder,E-commerce,1-10,4943,Focused on lead gen and outbound. Passionate about growth hacking.,Shared revenue milestone,0,6,5,0.89,hot,2
+Director of Growth,Sales Tech,11-50,4230,Focused on growth hacking and revenue. Passionate about lead gen.,Published article on B2B lead gen,1,12,12,0.68,hot,2
+Product Manager,Digital Marketing,11-50,963,Focused on partnerships and digital. Passionate about digital.,Liked a marketing strategy post,0,1,8,0.46,warm,1
+Student,Healthcare,201-500,566,Focused on learning and engineering. Passionate about operations.,No posts in 90 days,0,1,1,0.15,cold,0
+Student,Healthcare,201-500,239,Focused on coding and learning. Passionate about operations.,Updated profile picture,0,1,5,0.07,cold,0
+VP Sales,Marketing Tech,1-10,4991,Focused on cold outreach and GTM. Passionate about GTM.,Posted about LinkedIn outreach tips,0,15,11,0.59,hot,2
+CRO,Sales Tech,51-200,4651,Focused on cold outreach and pipeline. Passionate about pipeline.,Published article on B2B lead gen,1,18,5,0.64,hot,2
+CRO,SaaS,11-50,1908,Focused on revenue and lead gen. Passionate about pipeline.,Published article on B2B lead gen,0,13,12,0.61,hot,2
+CRO,Sales Tech,51-200,2332,Focused on pipeline and lead gen. Passionate about lead gen.,Published article on B2B lead gen,0,7,10,0.84,hot,2
+Director of Growth,Sales Tech,11-50,3936,Focused on GTM and cold outreach. Passionate about revenue.,Shared revenue milestone,0,4,3,0.74,hot,2
+Data Analyst,Non-profit,201-500,282,Focused on coding and engineering. Passionate about recruiting.,Liked a job posting,0,3,5,0.15,cold,0
+CEO,Sales Tech,11-50,3074,Focused on lead gen and growth hacking. Passionate about outbound.,Posted about LinkedIn outreach tips,1,6,13,0.89,hot,2
+Co-Founder,Sales Tech,51-200,4267,Focused on growth hacking and cold outreach. Passionate about B2B sales.,Published article on B2B lead gen,0,16,6,0.63,hot,2
+Product Manager,Retail Tech,201-500,1123,Focused on marketing and strategy. Passionate about business development.,Commented on growth post,1,2,9,0.43,warm,1
+Marketing Manager,Retail Tech,201-500,1343,Focused on strategy and brand. Passionate about brand.,Liked a marketing strategy post,1,5,6,0.42,warm,1
+VP Sales,E-commerce,51-200,625,Focused on B2B sales and outbound. Passionate about outbound.,Posted about LinkedIn outreach tips,1,20,6,0.63,hot,2
+CMO,Real Estate,11-50,1745,Focused on business development and brand. Passionate about brand.,Liked a marketing strategy post,0,8,10,0.49,warm,1
+CMO,Digital Marketing,51-200,158,Focused on strategy and partnerships. Passionate about campaigns.,Commented on growth post,1,8,11,0.45,warm,1
+Business Development Manager,Consulting,51-200,1674,Focused on brand and marketing. Passionate about digital.,Shared industry news,0,5,8,0.32,warm,1
+Student,Healthcare,201-500,604,Focused on operations and data. Passionate about data.,No posts in 90 days,0,1,5,0.07,cold,0
+CEO,Marketing Tech,51-200,2423,Focused on pipeline and scaling. Passionate about revenue.,Shared a cold email template,0,12,8,0.73,hot,2
+Marketing Manager,Digital Marketing,51-200,1823,Focused on marketing and campaigns. Passionate about strategy.,Shared industry news,1,4,9,0.45,warm,1
+Student,Healthcare,201-500,600,Focused on engineering and learning. Passionate about data.,No posts in 90 days,0,0,4,0.13,cold,0
+Marketing Manager,Real Estate,201-500,1966,Focused on brand and business development. Passionate about digital.,Commented on growth post,1,3,2,0.38,warm,1
+CRO,Marketing Tech,1-10,3386,Focused on GTM and scaling. Passionate about pipeline.,Shared a cold email template,0,9,9,0.89,hot,2
+Director of Growth,SaaS,1-10,1115,Focused on pipeline and cold outreach. Passionate about GTM.,Shared revenue milestone,0,9,3,0.9,hot,2
+CMO,Insurance,51-200,1998,Focused on partnerships and brand. Passionate about campaigns.,Shared industry news,1,6,12,0.48,warm,1
+Product Manager,Insurance,201-500,274,Focused on partnerships and strategy. Passionate about strategy.,Shared industry news,1,6,6,0.21,warm,1
+Head of Marketing,Real Estate,51-200,1106,Focused on marketing and business development. Passionate about business development.,Commented on growth post,1,3,11,0.41,warm,1
+Director of Growth,Sales Tech,11-50,4058,Focused on lead gen and revenue. Passionate about revenue.,Shared a cold email template,0,11,12,0.63,hot,2
+Founder,SaaS,51-200,2693,Focused on scaling and pipeline. Passionate about cold outreach.,Shared a cold email template,1,19,12,0.72,hot,2
+Head of Marketing,Real Estate,11-50,1052,Focused on strategy and digital. Passionate about marketing.,Liked a marketing strategy post,1,7,9,0.25,warm,1
+Software Engineer,Government,1-10,673,Focused on operations and learning. Passionate about engineering.,No posts in 90 days,0,0,1,0.07,cold,0
+Recruiter,Non-profit,201-500,483,Focused on operations and learning. Passionate about recruiting.,Liked a job posting,0,1,7,0.08,cold,0
+VP Sales,Sales Tech,51-200,4650,Focused on scaling and lead gen. Passionate about B2B sales.,Shared a cold email template,0,20,4,0.79,hot,2
+CEO,Fintech,1-10,1586,Focused on outbound and revenue. Passionate about GTM.,Shared a cold email template,0,6,9,0.65,hot,2
+Student,Non-profit,501-1000,237,Focused on coding and operations. Passionate about learning.,No posts in 90 days,0,3,0,0.12,cold,0
+Recruiter,Manufacturing,1000+,382,Focused on coding and data. Passionate about student.,Liked a job posting,0,2,1,0.11,cold,0
+Head of Sales,B2B Tech,11-50,3288,Focused on revenue and outbound. Passionate about outbound.,Shared a cold email template,0,10,12,0.74,hot,2
+Recruiter,Education,1000+,432,Focused on coding and data. Passionate about operations.,No recent activity,0,0,7,0.09,cold,0
+Recruiter,Government,1000+,629,Focused on student and coding. Passionate about recruiting.,No posts in 90 days,0,0,0,0.16,cold,0
+CMO,Consulting,51-200,1632,Focused on campaigns and partnerships. Passionate about partnerships.,Commented on growth post,1,7,10,0.52,warm,1
+Data Analyst,Non-profit,501-1000,667,Focused on building products and recruiting. Passionate about engineering.,No recent activity,0,1,5,0.08,cold,0
+Marketing Manager,Retail Tech,51-200,635,Focused on digital and campaigns. Passionate about business development.,Shared industry news,1,6,8,0.34,warm,1
+Marketing Manager,Insurance,11-50,1837,Focused on campaigns and partnerships. Passionate about marketing.,Shared industry news,1,6,4,0.31,warm,1
+Head of Sales,SaaS,51-200,4710,Focused on revenue and growth hacking. Passionate about lead gen.,Shared a cold email template,0,6,13,0.73,hot,2
+Recruiter,Manufacturing,501-1000,512,Focused on building products and engineering. Passionate about recruiting.,Updated profile picture,0,3,6,0.17,cold,0
+Head of Marketing,Consulting,51-200,1105,Focused on brand and campaigns. Passionate about campaigns.,Commented on growth post,1,3,2,0.37,warm,1
+Co-Founder,B2B Tech,51-200,4962,Focused on outbound and scaling. Passionate about scaling.,Published article on B2B lead gen,1,18,7,0.72,hot,2
+CMO,Real Estate,201-500,1602,Focused on brand and digital. Passionate about digital.,Commented on growth post,0,6,5,0.3,warm,1
+CRO,SaaS,51-200,1548,Focused on scaling and GTM. Passionate about B2B sales.,Shared a cold email template,0,7,14,0.61,hot,2
+CRO,Marketing Tech,11-50,2318,Focused on pipeline and B2B sales. Passionate about scaling.,Posted about LinkedIn outreach tips,0,8,14,0.68,hot,2
+CMO,Digital Marketing,201-500,914,Focused on strategy and marketing. Passionate about partnerships.,Liked a marketing strategy post,1,4,2,0.28,warm,1
+HR Manager,Education,1000+,267,Focused on learning and operations. Passionate about operations.,No posts in 90 days,0,2,5,0.02,cold,0
+Head of Sales,B2B Tech,11-50,1012,Focused on revenue and growth hacking. Passionate about scaling.,Shared revenue milestone,1,7,15,0.85,hot,2
+Recruiter,Non-profit,1000+,133,Focused on student and coding. Passionate about building products.,No recent activity,0,1,7,0.02,cold,0
+Product Manager,Digital Marketing,11-50,157,Focused on business development and strategy. Passionate about brand.,Commented on growth post,1,8,10,0.41,warm,1
+Head of Sales,SaaS,11-50,1943,Focused on lead gen and outbound. Passionate about growth hacking.,Published article on B2B lead gen,1,13,8,0.9,hot,2
+Finance Manager,Education,201-500,173,Focused on coding and learning. Passionate about data.,Liked a job posting,0,2,0,0.15,cold,0
+HR Manager,Government,1-10,583,Focused on student and operations. Passionate about building products.,No posts in 90 days,0,1,5,0.05,cold,0
+Data Analyst,Education,501-1000,583,Focused on data and recruiting. Passionate about student.,Updated profile picture,0,0,4,0.05,cold,0
+Founder,B2B Tech,51-200,1312,Focused on lead gen and outbound. Passionate about revenue.,Shared revenue milestone,0,12,4,0.72,hot,2
+Product Manager,Retail Tech,201-500,576,Focused on brand and strategy. Passionate about strategy.,Shared industry news,0,6,2,0.38,warm,1
+Director of Growth,SaaS,51-200,1646,Focused on scaling and lead gen. Passionate about lead gen.,Shared a cold email template,1,9,10,0.77,hot,2
+Head of Marketing,Real Estate,11-50,455,Focused on brand and campaigns. Passionate about campaigns.,Shared industry news,1,7,11,0.26,warm,1
+Head of Sales,B2B Tech,11-50,4322,Focused on revenue and cold outreach. Passionate about outbound.,Shared a cold email template,0,12,4,0.76,hot,2
+CEO,SaaS,51-200,731,Focused on growth hacking and outbound. Passionate about GTM.,Shared a cold email template,0,20,4,0.82,hot,2
+VP Sales,E-commerce,1-10,1872,Focused on outbound and GTM. Passionate about GTM.,Published article on B2B lead gen,1,12,8,0.75,hot,2
+Recruiter,Government,1000+,215,Focused on learning and engineering. Passionate about operations.,Liked a job posting,0,3,3,0.04,cold,0
+Marketing Manager,Digital Marketing,51-200,1987,Focused on campaigns and digital. Passionate about digital.,Shared industry news,1,7,5,0.34,warm,1
+Data Analyst,Manufacturing,501-1000,626,Focused on recruiting and building products. Passionate about building products.,Liked a job posting,0,3,7,0.13,cold,0
+Marketing Manager,Real Estate,11-50,765,Focused on campaigns and marketing. Passionate about business development.,Liked a marketing strategy post,0,1,10,0.39,warm,1
+CEO,B2B Tech,51-200,3562,Focused on revenue and scaling. Passionate about scaling.,Shared revenue milestone,0,10,15,0.65,hot,2
+CMO,Digital Marketing,201-500,1663,Focused on partnerships and marketing. Passionate about marketing.,Liked a marketing strategy post,1,3,5,0.26,warm,1
+Founder,Fintech,51-200,4571,Focused on GTM and revenue. Passionate about growth hacking.,Published article on B2B lead gen,1,4,9,0.72,hot,2
+Recruiter,Manufacturing,1-10,624,Focused on coding and data. Passionate about building products.,Liked a job posting,0,1,7,0.14,cold,0
+Software Engineer,Education,201-500,433,Focused on learning and student. Passionate about recruiting.,No posts in 90 days,0,1,0,0.05,cold,0
+CRO,SaaS,11-50,1397,Focused on cold outreach and growth hacking. Passionate about scaling.,Published article on B2B lead gen,1,16,9,0.62,hot,2
+Product Manager,Consulting,201-500,416,Focused on partnerships and brand. Passionate about marketing.,Shared industry news,1,2,6,0.42,warm,1
+Data Analyst,Education,501-1000,476,Focused on coding and student. Passionate about student.,No posts in 90 days,0,1,8,0.09,cold,0
+Data Analyst,Manufacturing,1000+,397,Focused on coding and recruiting. Passionate about data.,No posts in 90 days,0,2,6,0.04,cold,0
+Head of Marketing,Retail Tech,201-500,441,Focused on partnerships and digital. Passionate about marketing.,Commented on growth post,1,5,2,0.22,warm,1
+Head of Marketing,Digital Marketing,11-50,692,Focused on brand and marketing. Passionate about strategy.,Shared industry news,1,4,6,0.39,warm,1
+CMO,Retail Tech,201-500,1248,Focused on partnerships and strategy. Passionate about business development.,Commented on growth post,1,2,2,0.38,warm,1
+Marketing Manager,Retail Tech,11-50,1929,Focused on business development and marketing. Passionate about campaigns.,Shared industry news,0,5,2,0.27,warm,1
+Software Engineer,Government,1-10,465,Focused on coding and student. Passionate about data.,No recent activity,0,1,3,0.18,cold,0
+VP Sales,Marketing Tech,1-10,1552,Focused on outbound and growth hacking. Passionate about lead gen.,Published article on B2B lead gen,1,20,10,0.88,hot,2
+Business Development Manager,Consulting,51-200,1288,Focused on campaigns and marketing. Passionate about marketing.,Commented on growth post,0,8,8,0.41,warm,1
+CEO,Sales Tech,11-50,3753,Focused on cold outreach and lead gen. Passionate about lead gen.,Published article on B2B lead gen,1,19,8,0.82,hot,2
+CRO,Sales Tech,11-50,957,Focused on B2B sales and lead gen. Passionate about GTM.,Shared a cold email template,1,15,11,0.59,hot,2
+CMO,Retail Tech,51-200,1587,Focused on business development and partnerships. Passionate about digital.,Liked a marketing strategy post,0,8,8,0.29,warm,1
+Business Development Manager,Digital Marketing,201-500,418,Focused on digital and strategy. Passionate about business development.,Commented on growth post,1,5,8,0.27,warm,1
+Finance Manager,Non-profit,1000+,240,Focused on recruiting and data. Passionate about data.,Liked a job posting,0,0,6,0.1,cold,0
+CRO,Fintech,1-10,912,Focused on scaling and pipeline. Passionate about revenue.,Shared revenue milestone,1,12,13,0.85,hot,2
+Head of Sales,Fintech,51-200,4221,Focused on pipeline and outbound. Passionate about GTM.,Shared revenue milestone,1,6,13,0.71,hot,2
+Business Development Manager,Digital Marketing,201-500,626,Focused on campaigns and strategy. Passionate about partnerships.,Commented on growth post,0,1,9,0.45,warm,1
+Marketing Manager,Insurance,201-500,1075,Focused on partnerships and campaigns. Passionate about campaigns.,Liked a marketing strategy post,1,3,8,0.35,warm,1
+Marketing Manager,Real Estate,51-200,513,Focused on business development and partnerships. Passionate about partnerships.,Commented on growth post,0,2,8,0.39,warm,1
+Software Engineer,Healthcare,201-500,661,Focused on learning and student. Passionate about coding.,Liked a job posting,0,0,5,0.09,cold,0
+Business Development Manager,Real Estate,201-500,1247,Focused on business development and brand. Passionate about digital.,Liked a marketing strategy post,1,4,8,0.23,warm,1
+CRO,Fintech,1-10,352,Focused on scaling and GTM. Passionate about cold outreach.,Shared revenue milestone,0,11,3,0.71,hot,2
+Head of Marketing,Retail Tech,201-500,729,Focused on digital and strategy. Passionate about partnerships.,Liked a marketing strategy post,1,8,6,0.31,warm,1
+Data Analyst,Healthcare,1000+,52,Focused on coding and data. Passionate about learning.,No recent activity,0,0,4,0.11,cold,0
+Student,Government,1-10,758,Focused on operations and data. Passionate about engineering.,Liked a job posting,0,0,2,0.08,cold,0
+VP Sales,SaaS,11-50,3374,Focused on outbound and pipeline. Passionate about scaling.,Shared revenue milestone,1,10,4,0.83,hot,2
+Recruiter,Healthcare,1000+,396,Focused on recruiting and engineering. Passionate about student.,No recent activity,0,1,1,0.07,cold,0
+Head of Marketing,Insurance,201-500,1404,Focused on business development and brand. Passionate about brand.,Commented on growth post,1,2,5,0.31,warm,1
+Co-Founder,SaaS,1-10,1415,Focused on lead gen and GTM. Passionate about pipeline.,Posted about LinkedIn outreach tips,0,9,8,0.74,hot,2
+Marketing Manager,Insurance,11-50,662,Focused on strategy and campaigns. Passionate about campaigns.,Shared industry news,1,2,9,0.23,warm,1
+Founder,E-commerce,1-10,1261,Focused on lead gen and growth hacking. Passionate about growth hacking.,Shared revenue milestone,1,10,11,0.68,hot,2
+Student,Education,1-10,757,Focused on recruiting and coding. Passionate about operations.,Liked a job posting,0,2,1,0.11,cold,0
+Data Analyst,Non-profit,1-10,276,Focused on coding and student. Passionate about data.,No recent activity,0,1,4,0.16,cold,0
+VP Sales,Sales Tech,11-50,1107,Focused on lead gen and growth hacking. Passionate about B2B sales.,Shared revenue milestone,1,14,8,0.75,hot,2
+Data Analyst,Non-profit,201-500,429,Focused on coding and engineering. Passionate about learning.,No posts in 90 days,0,3,8,0.02,cold,0
+Marketing Manager,Real Estate,11-50,1291,Focused on partnerships and campaigns. Passionate about campaigns.,Commented on growth post,1,3,2,0.5,warm,1
+Business Development Manager,Digital Marketing,11-50,1419,Focused on marketing and partnerships. Passionate about campaigns.,Shared industry news,1,6,10,0.26,warm,1
+HR Manager,Government,201-500,781,Focused on engineering and data. Passionate about data.,No posts in 90 days,0,0,3,0.16,cold,0
+CRO,Marketing Tech,51-200,2164,Focused on scaling and cold outreach. Passionate about lead gen.,Posted about LinkedIn outreach tips,1,9,13,0.75,hot,2
+Finance Manager,Government,201-500,264,Focused on building products and learning. Passionate about engineering.,No recent activity,0,2,2,0.04,cold,0
+CRO,B2B Tech,1-10,4236,Focused on revenue and pipeline. Passionate about pipeline.,Published article on B2B lead gen,1,7,4,0.71,hot,2
+Founder,B2B Tech,51-200,3422,Focused on pipeline and B2B sales. Passionate about revenue.,Published article on B2B lead gen,1,17,9,0.72,hot,2
+Marketing Manager,Digital Marketing,51-200,189,Focused on brand and digital. Passionate about partnerships.,Liked a marketing strategy post,0,4,10,0.24,warm,1
+HR Manager,Education,201-500,558,Focused on building products and coding. Passionate about student.,Liked a job posting,0,2,8,0.18,cold,0
+CRO,Sales Tech,11-50,518,Focused on pipeline and B2B sales. Passionate about outbound.,Shared revenue milestone,0,20,9,0.63,hot,2
+CMO,Real Estate,51-200,1649,Focused on campaigns and brand. Passionate about brand.,Shared industry news,0,2,6,0.38,warm,1
+Business Development Manager,Digital Marketing,11-50,691,Focused on digital and marketing. Passionate about brand.,Shared industry news,0,6,9,0.21,warm,1
+CMO,Real Estate,11-50,218,Focused on business development and partnerships. Passionate about partnerships.,Commented on growth post,1,3,5,0.53,warm,1
+Software Engineer,Healthcare,201-500,245,Focused on learning and student. Passionate about operations.,Updated profile picture,0,3,3,0.12,cold,0
+VP Sales,Sales Tech,51-200,4911,Focused on growth hacking and lead gen. Passionate about B2B sales.,Published article on B2B lead gen,1,4,13,0.75,hot,2
+Co-Founder,Sales Tech,1-10,1139,Focused on pipeline and cold outreach. Passionate about scaling.,Posted about LinkedIn outreach tips,0,13,15,0.57,hot,2
+Product Manager,Consulting,51-200,253,Focused on business development and digital. Passionate about digital.,Liked a marketing strategy post,1,7,8,0.26,warm,1
+Product Manager,Insurance,51-200,1633,Focused on business development and strategy. Passionate about brand.,Liked a marketing strategy post,0,8,6,0.44,warm,1
+Business Development Manager,Insurance,201-500,1964,Focused on strategy and digital. Passionate about business development.,Liked a marketing strategy post,0,3,11,0.47,warm,1
+Recruiter,Education,501-1000,315,Focused on learning and recruiting. Passionate about coding.,Updated profile picture,0,0,0,0.09,cold,0
+Software Engineer,Manufacturing,1-10,181,Focused on recruiting and data. Passionate about coding.,Updated profile picture,0,2,6,0.07,cold,0
+Finance Manager,Healthcare,1-10,347,Focused on engineering and student. Passionate about building products.,Updated profile picture,0,1,7,0.03,cold,0
+Student,Government,1-10,324,Focused on coding and engineering. Passionate about engineering.,No posts in 90 days,0,3,5,0.09,cold,0
+Software Engineer,Healthcare,501-1000,492,Focused on building products and engineering. Passionate about operations.,Liked a job posting,0,2,7,0.06,cold,0
+Head of Marketing,Digital Marketing,11-50,1573,Focused on strategy and digital. Passionate about partnerships.,Commented on growth post,1,1,4,0.42,warm,1
+Head of Sales,Marketing Tech,11-50,4775,Focused on cold outreach and B2B sales. Passionate about outbound.,Published article on B2B lead gen,1,12,6,0.65,hot,2
+Finance Manager,Healthcare,501-1000,542,Focused on engineering and data. Passionate about recruiting.,No recent activity,0,3,7,0.09,cold,0
+Head of Marketing,Insurance,11-50,1416,Focused on campaigns and strategy. Passionate about brand.,Commented on growth post,1,1,5,0.45,warm,1
+CMO,Insurance,201-500,1644,Focused on brand and business development. Passionate about digital.,Liked a marketing strategy post,1,7,4,0.3,warm,1
+Founder,B2B Tech,11-50,2948,Focused on B2B sales and scaling. Passionate about revenue.,Posted about LinkedIn outreach tips,1,16,9,0.73,hot,2
+CMO,Insurance,201-500,1557,Focused on brand and campaigns. Passionate about strategy.,Shared industry news,1,8,8,0.37,warm,1
+VP Sales,E-commerce,11-50,4196,Focused on outbound and pipeline. Passionate about scaling.,Shared revenue milestone,1,13,13,0.78,hot,2
+Data Analyst,Healthcare,1000+,366,Focused on operations and data. Passionate about student.,Updated profile picture,0,0,2,0.02,cold,0
+Business Development Manager,Insurance,201-500,796,Focused on business development and strategy. Passionate about digital.,Commented on growth post,1,2,11,0.31,warm,1
+Recruiter,Non-profit,501-1000,764,Focused on engineering and recruiting. Passionate about recruiting.,Liked a job posting,0,1,6,0.05,cold,0
+Finance Manager,Education,1000+,274,Focused on operations and building products. Passionate about coding.,No recent activity,0,3,3,0.1,cold,0
+Product Manager,Retail Tech,11-50,1553,Focused on marketing and strategy. Passionate about strategy.,Shared industry news,0,5,2,0.22,warm,1
+Finance Manager,Education,201-500,211,Focused on data and operations. Passionate about coding.,Updated profile picture,0,1,8,0.03,cold,0
+Data Analyst,Manufacturing,1-10,443,Focused on recruiting and operations. Passionate about building products.,Liked a job posting,0,0,7,0.03,cold,0
+Head of Marketing,Consulting,201-500,1136,Focused on campaigns and strategy. Passionate about strategy.,Commented on growth post,0,5,3,0.5,warm,1
+Software Engineer,Healthcare,201-500,291,Focused on engineering and building products. Passionate about building products.,No recent activity,0,2,3,0.09,cold,0
+Head of Marketing,Insurance,51-200,1350,Focused on digital and strategy. Passionate about strategy.,Liked a marketing strategy post,1,2,10,0.32,warm,1
+Recruiter,Healthcare,1000+,402,Focused on coding and building products. Passionate about data.,No posts in 90 days,0,2,7,0.03,cold,0
+Data Analyst,Non-profit,501-1000,419,Focused on operations and coding. Passionate about coding.,No posts in 90 days,0,2,6,0.17,cold,0
+Finance Manager,Healthcare,1000+,432,Focused on engineering and recruiting. Passionate about recruiting.,Liked a job posting,0,2,5,0.03,cold,0
+Director of Growth,Marketing Tech,1-10,1357,Focused on lead gen and pipeline. Passionate about growth hacking.,Shared revenue milestone,1,5,7,0.66,hot,2
+Director of Growth,B2B Tech,1-10,4678,Focused on outbound and cold outreach. Passionate about B2B sales.,Shared revenue milestone,0,17,7,0.67,hot,2
+Student,Manufacturing,201-500,751,Focused on recruiting and operations. Passionate about student.,No recent activity,0,2,6,0.08,cold,0
+Software Engineer,Non-profit,201-500,291,Focused on operations and student. Passionate about learning.,No recent activity,0,2,3,0.12,cold,0
+Finance Manager,Manufacturing,501-1000,753,Focused on learning and data. Passionate about data.,No posts in 90 days,0,2,1,0.17,cold,0
+CMO,Digital Marketing,11-50,295,Focused on partnerships and digital. Passionate about digital.,Shared industry news,1,8,2,0.51,warm,1
+Marketing Manager,Insurance,201-500,1045,Focused on campaigns and digital. Passionate about digital.,Shared industry news,0,7,3,0.41,warm,1
+Founder,SaaS,51-200,4819,Focused on cold outreach and GTM. Passionate about GTM.,Shared revenue milestone,0,20,3,0.83,hot,2
+Software Engineer,Non-profit,1000+,135,Focused on learning and student. Passionate about engineering.,Updated profile picture,0,2,4,0.09,cold,0
+Marketing Manager,Real Estate,201-500,1805,Focused on brand and digital. Passionate about strategy.,Commented on growth post,1,6,7,0.45,warm,1
+Head of Marketing,Real Estate,51-200,1528,Focused on campaigns and brand. Passionate about partnerships.,Commented on growth post,1,2,6,0.41,warm,1
+Data Analyst,Healthcare,201-500,246,Focused on learning and operations. Passionate about student.,No posts in 90 days,0,3,0,0.15,cold,0
+Founder,Sales Tech,51-200,4225,Focused on B2B sales and GTM. Passionate about GTM.,Shared revenue milestone,1,17,14,0.59,hot,2
+Marketing Manager,Real Estate,51-200,788,Focused on marketing and strategy. Passionate about strategy.,Shared industry news,1,1,4,0.29,warm,1
+Founder,Marketing Tech,51-200,1956,Focused on lead gen and outbound. Passionate about scaling.,Shared a cold email template,0,20,13,0.58,hot,2
+Recruiter,Education,201-500,784,Focused on data and recruiting. Passionate about recruiting.,No posts in 90 days,0,2,8,0.05,cold,0
+Director of Growth,Sales Tech,1-10,4951,Focused on outbound and GTM. Passionate about cold outreach.,Posted about LinkedIn outreach tips,1,8,7,0.8,hot,2
+Data Analyst,Non-profit,1-10,60,Focused on student and engineering. Passionate about learning.,Updated profile picture,0,2,7,0.09,cold,0
+Marketing Manager,Retail Tech,201-500,1571,Focused on partnerships and business development. Passionate about business development.,Commented on growth post,0,6,11,0.43,warm,1
+Product Manager,Retail Tech,201-500,1321,Focused on strategy and business development. Passionate about partnerships.,Liked a marketing strategy post,0,8,6,0.49,warm,1
+CRO,Fintech,11-50,2736,Focused on cold outreach and revenue. Passionate about B2B sales.,Shared revenue milestone,0,5,9,0.62,hot,2
+Head of Sales,Marketing Tech,11-50,1273,Focused on growth hacking and outbound. Passionate about GTM.,Shared a cold email template,1,16,11,0.62,hot,2
+Data Analyst,Healthcare,1000+,141,Focused on learning and coding. Passionate about data.,No recent activity,0,3,4,0.13,cold,0
+Head of Marketing,Insurance,51-200,211,Focused on brand and partnerships. Passionate about digital.,Liked a marketing strategy post,1,8,6,0.41,warm,1
+Marketing Manager,Insurance,201-500,1044,Focused on partnerships and marketing. Passionate about marketing.,Liked a marketing strategy post,0,8,4,0.37,warm,1
+Head of Marketing,Real Estate,51-200,1876,Focused on digital and marketing. Passionate about business development.,Shared industry news,1,4,9,0.29,warm,1
+Student,Government,1000+,511,Focused on building products and learning. Passionate about coding.,Liked a job posting,0,0,1,0.12,cold,0
+Student,Non-profit,1000+,625,Focused on student and operations. Passionate about learning.,Liked a job posting,0,3,6,0.12,cold,0
+CMO,Digital Marketing,11-50,1486,Focused on campaigns and digital. Passionate about strategy.,Liked a marketing strategy post,1,3,10,0.35,warm,1
+Founder,B2B Tech,51-200,947,Focused on lead gen and pipeline. Passionate about cold outreach.,Published article on B2B lead gen,1,12,6,0.88,hot,2
+Data Analyst,Healthcare,201-500,110,Focused on student and recruiting. Passionate about recruiting.,Liked a job posting,0,3,1,0.17,cold,0
+CMO,Real Estate,11-50,1633,Focused on campaigns and partnerships. Passionate about partnerships.,Commented on growth post,0,2,8,0.24,warm,1
+Data Analyst,Education,501-1000,505,Focused on recruiting and student. Passionate about coding.,Updated profile picture,0,3,5,0.09,cold,0
+Head of Sales,Marketing Tech,51-200,3116,Focused on growth hacking and lead gen. Passionate about lead gen.,Shared revenue milestone,1,14,7,0.63,hot,2
+CEO,Sales Tech,51-200,565,Focused on revenue and lead gen. Passionate about lead gen.,Shared a cold email template,1,15,15,0.74,hot,2
+Data Analyst,Non-profit,1-10,458,Focused on recruiting and building products. Passionate about coding.,Liked a job posting,0,3,0,0.14,cold,0
+Finance Manager,Non-profit,1-10,251,Focused on building products and coding. Passionate about coding.,No recent activity,0,3,0,0.02,cold,0
+Co-Founder,SaaS,11-50,3442,Focused on cold outreach and lead gen. Passionate about lead gen.,Shared a cold email template,1,12,12,0.64,hot,2
+Finance Manager,Non-profit,1000+,723,Focused on data and operations. Passionate about operations.,No posts in 90 days,0,3,1,0.03,cold,0
+VP Sales,Fintech,1-10,1869,Focused on revenue and lead gen. Passionate about cold outreach.,Shared a cold email template,1,12,6,0.68,hot,2
+Founder,Fintech,51-200,1916,Focused on B2B sales and GTM. Passionate about GTM.,Shared revenue milestone,1,16,6,0.75,hot,2
+Founder,B2B Tech,11-50,573,Focused on pipeline and outbound. Passionate about B2B sales.,Published article on B2B lead gen,1,6,14,0.62,hot,2
+Marketing Manager,Consulting,11-50,1324,Focused on brand and partnerships. Passionate about marketing.,Commented on growth post,0,1,4,0.51,warm,1
+Director of Growth,B2B Tech,1-10,3877,Focused on pipeline and cold outreach. Passionate about B2B sales.,Posted about LinkedIn outreach tips,0,16,7,0.67,hot,2
+Product Manager,Insurance,11-50,1397,Focused on digital and marketing. Passionate about marketing.,Liked a marketing strategy post,1,4,8,0.25,warm,1
+CRO,E-commerce,11-50,3461,Focused on growth hacking and scaling. Passionate about B2B sales.,Posted about LinkedIn outreach tips,0,6,8,0.85,hot,2
+Head of Marketing,Insurance,201-500,809,Focused on strategy and campaigns. Passionate about digital.,Liked a marketing strategy post,0,1,2,0.24,warm,1
+Founder,B2B Tech,11-50,3476,Focused on lead gen and B2B sales. Passionate about B2B sales.,Posted about LinkedIn outreach tips,1,11,5,0.66,hot,2
+Director of Growth,Marketing Tech,51-200,4172,Focused on GTM and pipeline. Passionate about pipeline.,Shared a cold email template,1,17,4,0.67,hot,2
+VP Sales,Marketing Tech,1-10,3527,Focused on pipeline and cold outreach. Passionate about outbound.,Posted about LinkedIn outreach tips,0,17,5,0.68,hot,2
+Head of Sales,Sales Tech,11-50,2050,Focused on B2B sales and lead gen. Passionate about lead gen.,Shared revenue milestone,1,9,11,0.58,hot,2
+Head of Sales,SaaS,11-50,4309,Focused on pipeline and lead gen. Passionate about outbound.,Published article on B2B lead gen,1,16,8,0.83,hot,2
+CEO,E-commerce,51-200,2912,Focused on revenue and scaling. Passionate about growth hacking.,Published article on B2B lead gen,0,8,7,0.74,hot,2
+Head of Marketing,Digital Marketing,11-50,1330,Focused on marketing and strategy. Passionate about strategy.,Liked a marketing strategy post,1,3,8,0.35,warm,1
+Data Analyst,Manufacturing,1000+,268,Focused on data and coding. Passionate about recruiting.,No posts in 90 days,0,0,5,0.09,cold,0
+Software Engineer,Healthcare,1-10,264,Focused on engineering and coding. Passionate about coding.,No posts in 90 days,0,3,3,0.03,cold,0
+Product Manager,Consulting,51-200,1289,Focused on brand and campaigns. Passionate about partnerships.,Shared industry news,1,8,11,0.47,warm,1
+Data Analyst,Healthcare,1-10,399,Focused on coding and engineering. Passionate about building products.,Liked a job posting,0,2,5,0.12,cold,0
+Co-Founder,B2B Tech,11-50,1889,Focused on growth hacking and cold outreach. Passionate about GTM.,Published article on B2B lead gen,1,18,15,0.73,hot,2
+Director of Growth,B2B Tech,51-200,2351,Focused on scaling and B2B sales. Passionate about B2B sales.,Posted about LinkedIn outreach tips,0,4,15,0.73,hot,2
+CMO,Retail Tech,11-50,1366,Focused on partnerships and marketing. Passionate about digital.,Liked a marketing strategy post,1,1,9,0.24,warm,1
+Student,Non-profit,201-500,191,Focused on data and learning. Passionate about learning.,No posts in 90 days,0,3,5,0.18,cold,0
+Marketing Manager,Digital Marketing,11-50,512,Focused on partnerships and business development. Passionate about business development.,Shared industry news,1,6,8,0.46,warm,1
+Student,Education,201-500,516,Focused on student and building products. Passionate about recruiting.,No posts in 90 days,0,2,6,0.03,cold,0
+CRO,SaaS,11-50,4523,Focused on cold outreach and outbound. Passionate about lead gen.,Published article on B2B lead gen,1,15,8,0.85,hot,2
+Recruiter,Healthcare,501-1000,558,Focused on student and coding. Passionate about coding.,Updated profile picture,0,2,7,0.12,cold,0
+Finance Manager,Healthcare,1-10,325,Focused on building products and engineering. Passionate about coding.,No recent activity,0,2,7,0.03,cold,0
+Head of Sales,B2B Tech,1-10,4294,Focused on B2B sales and lead gen. Passionate about scaling.,Shared a cold email template,0,12,12,0.55,hot,2
+Finance Manager,Government,501-1000,441,Focused on learning and engineering. Passionate about data.,No recent activity,0,1,1,0.07,cold,0
+Student,Non-profit,1-10,596,Focused on engineering and building products. Passionate about operations.,Updated profile picture,0,3,6,0.04,cold,0
+Marketing Manager,Real Estate,201-500,1821,Focused on brand and partnerships. Passionate about partnerships.,Commented on growth post,0,7,4,0.4,warm,1
+Product Manager,Consulting,11-50,1100,Focused on business development and digital. Passionate about partnerships.,Shared industry news,1,4,8,0.29,warm,1
+Marketing Manager,Real Estate,201-500,1619,Focused on brand and business development. Passionate about partnerships.,Liked a marketing strategy post,1,6,12,0.36,warm,1
+Business Development Manager,Insurance,51-200,1054,Focused on brand and business development. Passionate about campaigns.,Liked a marketing strategy post,1,4,12,0.48,warm,1
+Head of Marketing,Insurance,201-500,2000,Focused on partnerships and strategy. Passionate about strategy.,Commented on growth post,1,5,3,0.46,warm,1
+Business Development Manager,Digital Marketing,51-200,1838,Focused on brand and marketing. Passionate about marketing.,Liked a marketing strategy post,1,7,12,0.46,warm,1
+Head of Marketing,Insurance,51-200,1151,Focused on strategy and marketing. Passionate about marketing.,Commented on growth post,0,3,7,0.35,warm,1
+Head of Sales,B2B Tech,51-200,4862,Focused on pipeline and cold outreach. Passionate about cold outreach.,Shared a cold email template,1,5,15,0.64,hot,2
+CMO,Retail Tech,51-200,1182,Focused on marketing and strategy. Passionate about strategy.,Shared industry news,1,5,6,0.47,warm,1
+Data Analyst,Healthcare,201-500,367,Focused on learning and student. Passionate about student.,No posts in 90 days,0,2,8,0.14,cold,0
+HR Manager,Education,501-1000,554,Focused on engineering and student. Passionate about student.,Liked a job posting,0,3,8,0.1,cold,0
+Software Engineer,Education,1000+,561,Focused on data and recruiting. Passionate about student.,Liked a job posting,0,1,8,0.07,cold,0
+Founder,Marketing Tech,11-50,2270,Focused on revenue and pipeline. Passionate about GTM.,Shared revenue milestone,0,6,11,0.83,hot,2
+Marketing Manager,Digital Marketing,11-50,1864,Focused on strategy and brand. Passionate about marketing.,Liked a marketing strategy post,0,1,5,0.33,warm,1
+HR Manager,Education,1000+,162,Focused on learning and coding. Passionate about coding.,Liked a job posting,0,2,1,0.07,cold,0
+Data Analyst,Government,201-500,274,Focused on operations and coding. Passionate about building products.,Updated profile picture,0,1,0,0.04,cold,0
+Recruiter,Government,1000+,103,Focused on building products and engineering. Passionate about engineering.,No recent activity,0,1,3,0.05,cold,0
+Business Development Manager,Insurance,51-200,869,Focused on partnerships and strategy. Passionate about brand.,Commented on growth post,0,4,3,0.3,warm,1
+Marketing Manager,Consulting,201-500,864,Focused on marketing and brand. Passionate about brand.,Liked a marketing strategy post,0,5,2,0.34,warm,1
+CEO,SaaS,1-10,2801,Focused on growth hacking and outbound. Passionate about cold outreach.,Posted about LinkedIn outreach tips,0,8,12,0.7,hot,2
+Co-Founder,E-commerce,1-10,2650,Focused on outbound and lead gen. Passionate about B2B sales.,Shared revenue milestone,1,8,12,0.56,hot,2
+CMO,Consulting,201-500,937,Focused on digital and marketing. Passionate about marketing.,Shared industry news,1,5,4,0.35,warm,1
+Marketing Manager,Consulting,11-50,828,Focused on campaigns and strategy. Passionate about strategy.,Liked a marketing strategy post,1,5,5,0.22,warm,1
+CRO,SaaS,11-50,3236,Focused on growth hacking and scaling. Passionate about pipeline.,Published article on B2B lead gen,1,11,5,0.76,hot,2
+Data Analyst,Manufacturing,1-10,158,Focused on student and recruiting. Passionate about recruiting.,No recent activity,0,0,6,0.07,cold,0
+VP Sales,Marketing Tech,51-200,2148,Focused on outbound and B2B sales. Passionate about B2B sales.,Shared revenue milestone,1,18,7,0.76,hot,2
+Director of Growth,E-commerce,11-50,3903,Focused on growth hacking and cold outreach. Passionate about cold outreach.,Posted about LinkedIn outreach tips,1,11,8,0.6,hot,2
+Finance Manager,Healthcare,1000+,523,Focused on engineering and coding. Passionate about recruiting.,Updated profile picture,0,1,6,0.11,cold,0
+CMO,Retail Tech,11-50,1433,Focused on marketing and brand. Passionate about brand.,Liked a marketing strategy post,0,7,10,0.42,warm,1
+CMO,Insurance,201-500,1153,Focused on marketing and business development. Passionate about business development.,Commented on growth post,1,1,11,0.2,warm,1
+Head of Marketing,Real Estate,11-50,213,Focused on strategy and campaigns. Passionate about marketing.,Shared industry news,1,2,4,0.2,warm,1
+Founder,Sales Tech,11-50,1608,Focused on revenue and scaling. Passionate about lead gen.,Shared revenue milestone,1,13,8,0.63,hot,2
+CEO,Marketing Tech,1-10,1871,Focused on B2B sales and lead gen. Passionate about cold outreach.,Shared revenue milestone,1,16,9,0.66,hot,2
+HR Manager,Healthcare,1-10,780,Focused on data and coding. Passionate about recruiting.,No recent activity,0,0,6,0.17,cold,0
+Data Analyst,Government,1000+,568,Focused on building products and learning. Passionate about data.,No posts in 90 days,0,2,1,0.16,cold,0
+Product Manager,Retail Tech,201-500,1877,Focused on business development and campaigns. Passionate about marketing.,Shared industry news,1,5,3,0.54,warm,1
+Finance Manager,Government,201-500,417,Focused on data and coding. Passionate about engineering.,No recent activity,0,3,7,0.06,cold,0
+Head of Marketing,Insurance,11-50,1411,Focused on business development and digital. Passionate about marketing.,Commented on growth post,1,7,6,0.52,warm,1
+Head of Marketing,Digital Marketing,201-500,1360,Focused on brand and strategy. Passionate about marketing.,Shared industry news,1,6,12,0.45,warm,1
+Head of Marketing,Retail Tech,201-500,986,Focused on strategy and brand. Passionate about marketing.,Shared industry news,0,2,12,0.43,warm,1
+Software Engineer,Education,1000+,566,Focused on data and recruiting. Passionate about engineering.,No recent activity,0,3,7,0.1,cold,0
+Marketing Manager,Retail Tech,11-50,1865,Focused on business development and marketing. Passionate about partnerships.,Shared industry news,1,7,9,0.27,warm,1
+Software Engineer,Non-profit,1000+,557,Focused on learning and coding. Passionate about student.,Updated profile picture,0,3,7,0.05,cold,0
+Director of Growth,SaaS,51-200,793,Focused on B2B sales and lead gen. Passionate about lead gen.,Posted about LinkedIn outreach tips,1,19,9,0.82,hot,2
+Co-Founder,E-commerce,11-50,2380,Focused on revenue and cold outreach. Passionate about growth hacking.,Shared revenue milestone,0,4,13,0.58,hot,2
+Software Engineer,Non-profit,501-1000,358,Focused on student and engineering. Passionate about engineering.,No recent activity,0,1,5,0.17,cold,0
+Director of Growth,Marketing Tech,1-10,2286,Focused on growth hacking and pipeline. Passionate about GTM.,Posted about LinkedIn outreach tips,1,20,3,0.67,hot,2
+Data Analyst,Non-profit,201-500,208,Focused on student and coding. Passionate about data.,Liked a job posting,0,2,6,0.18,cold,0
+HR Manager,Manufacturing,1-10,736,Focused on learning and engineering. Passionate about student.,No posts in 90 days,0,1,4,0.11,cold,0
+Founder,Marketing Tech,51-200,701,Focused on scaling and B2B sales. Passionate about pipeline.,Shared revenue milestone,1,13,6,0.77,hot,2
+Co-Founder,SaaS,11-50,4808,Focused on growth hacking and cold outreach. Passionate about cold outreach.,Posted about LinkedIn outreach tips,0,4,5,0.72,hot,2
+Co-Founder,SaaS,11-50,3549,Focused on scaling and outbound. Passionate about revenue.,Published article on B2B lead gen,0,12,6,0.88,hot,2
+CRO,Marketing Tech,11-50,4108,Focused on pipeline and growth hacking. Passionate about cold outreach.,Shared revenue milestone,1,12,4,0.64,hot,2
+Student,Education,1-10,575,Focused on learning and data. Passionate about coding.,No recent activity,0,3,4,0.07,cold,0
+Head of Marketing,Retail Tech,11-50,1833,Focused on campaigns and strategy. Passionate about partnerships.,Shared industry news,0,2,11,0.31,warm,1
+Co-Founder,Sales Tech,1-10,436,Focused on B2B sales and lead gen. Passionate about cold outreach.,Posted about LinkedIn outreach tips,0,10,15,0.65,hot,2
+Head of Marketing,Consulting,51-200,329,Focused on campaigns and strategy. Passionate about marketing.,Shared industry news,1,4,5,0.42,warm,1
+Head of Sales,Fintech,11-50,1047,Focused on growth hacking and pipeline. Passionate about GTM.,Shared revenue milestone,0,14,5,0.79,hot,2
+Marketing Manager,Consulting,201-500,1648,Focused on campaigns and brand. Passionate about partnerships.,Shared industry news,1,2,6,0.25,warm,1
+Business Development Manager,Insurance,201-500,159,Focused on brand and campaigns. Passionate about business development.,Shared industry news,0,2,6,0.52,warm,1
+Product Manager,Insurance,51-200,223,Focused on partnerships and business development. Passionate about marketing.,Commented on growth post,1,5,12,0.52,warm,1
+HR Manager,Education,501-1000,637,Focused on engineering and data. Passionate about data.,No posts in 90 days,0,0,4,0.02,cold,0
+Software Engineer,Healthcare,501-1000,773,Focused on student and engineering. Passionate about coding.,Liked a job posting,0,1,7,0.15,cold,0
+Recruiter,Education,1-10,495,Focused on engineering and building products. Passionate about operations.,No recent activity,0,3,3,0.14,cold,0
+Business Development Manager,Insurance,201-500,978,Focused on digital and strategy. Passionate about strategy.,Shared industry news,0,2,11,0.46,warm,1
+Business Development Manager,Real Estate,201-500,1440,Focused on brand and business development. Passionate about business development.,Commented on growth post,0,2,5,0.48,warm,1
+Co-Founder,B2B Tech,1-10,3541,Focused on cold outreach and outbound. Passionate about outbound.,Published article on B2B lead gen,1,16,8,0.66,hot,2
+Student,Government,501-1000,748,Focused on student and coding. Passionate about recruiting.,Updated profile picture,0,0,5,0.02,cold,0
+Data Analyst,Education,1000+,682,Focused on engineering and data. Passionate about operations.,No posts in 90 days,0,0,1,0.01,cold,0
+CEO,SaaS,1-10,2986,Focused on GTM and growth hacking. Passionate about growth hacking.,Published article on B2B lead gen,0,17,8,0.8,hot,2
+Product Manager,Real Estate,51-200,318,Focused on business development and partnerships. Passionate about campaigns.,Liked a marketing strategy post,1,5,6,0.49,warm,1
+VP Sales,B2B Tech,1-10,1607,Focused on revenue and B2B sales. Passionate about GTM.,Shared revenue milestone,0,8,4,0.58,hot,2
+Finance Manager,Healthcare,1000+,510,Focused on engineering and student. Passionate about operations.,No recent activity,0,1,7,0.16,cold,0
+Co-Founder,Marketing Tech,51-200,3583,Focused on scaling and pipeline. Passionate about B2B sales.,Posted about LinkedIn outreach tips,0,4,9,0.67,hot,2
+Product Manager,Real Estate,201-500,598,Focused on digital and strategy. Passionate about brand.,Liked a marketing strategy post,1,1,7,0.53,warm,1
+CEO,B2B Tech,11-50,3732,Focused on scaling and B2B sales. Passionate about GTM.,Shared a cold email template,1,12,3,0.78,hot,2
+Recruiter,Manufacturing,1-10,136,Focused on data and learning. Passionate about coding.,Updated profile picture,0,1,6,0.15,cold,0
+Recruiter,Manufacturing,1000+,518,Focused on student and recruiting. Passionate about operations.,Updated profile picture,0,1,3,0.1,cold,0
+HR Manager,Non-profit,1000+,566,Focused on student and learning. Passionate about building products.,Updated profile picture,0,0,6,0.09,cold,0
+Business Development Manager,Digital Marketing,201-500,1093,Focused on partnerships and brand. Passionate about brand.,Commented on growth post,1,7,6,0.39,warm,1
+VP Sales,Fintech,11-50,2627,Focused on lead gen and outbound. Passionate about scaling.,Published article on B2B lead gen,1,8,12,0.87,hot,2
+Marketing Manager,Consulting,51-200,1740,Focused on campaigns and brand. Passionate about partnerships.,Shared industry news,0,2,7,0.26,warm,1
+Product Manager,Real Estate,201-500,870,Focused on strategy and partnerships. Passionate about brand.,Shared industry news,1,5,6,0.5,warm,1
+Marketing Manager,Consulting,51-200,1011,Focused on strategy and partnerships. Passionate about brand.,Commented on growth post,0,5,3,0.44,warm,1
+Director of Growth,Fintech,1-10,796,Focused on cold outreach and scaling. Passionate about lead gen.,Shared revenue milestone,1,7,6,0.6,hot,2
+CMO,Real Estate,51-200,535,Focused on business development and campaigns. Passionate about partnerships.,Liked a marketing strategy post,0,2,9,0.44,warm,1
+Product Manager,Retail Tech,201-500,789,Focused on brand and strategy. Passionate about strategy.,Commented on growth post,0,1,10,0.4,warm,1
+CMO,Consulting,51-200,1525,Focused on business development and marketing. Passionate about strategy.,Liked a marketing strategy post,0,8,4,0.23,warm,1
+Head of Sales,Sales Tech,51-200,4399,Focused on GTM and revenue. Passionate about pipeline.,Shared a cold email template,0,4,7,0.59,hot,2
+Software Engineer,Manufacturing,501-1000,766,Focused on coding and recruiting. Passionate about recruiting.,Liked a job posting,0,3,3,0.01,cold,0
+Software Engineer,Non-profit,501-1000,776,Focused on learning and coding. Passionate about engineering.,No posts in 90 days,0,0,1,0.07,cold,0
+Recruiter,Government,1-10,716,Focused on operations and recruiting. Passionate about engineering.,No posts in 90 days,0,1,5,0.12,cold,0
+Student,Education,1-10,498,Focused on recruiting and building products. Passionate about student.,No posts in 90 days,0,0,8,0.03,cold,0
+Marketing Manager,Consulting,11-50,1525,Focused on strategy and brand. Passionate about digital.,Liked a marketing strategy post,1,3,10,0.45,warm,1
+Student,Education,201-500,384,Focused on building products and engineering. Passionate about data.,No posts in 90 days,0,0,6,0.1,cold,0
+Director of Growth,E-commerce,1-10,2302,Focused on outbound and growth hacking. Passionate about revenue.,Posted about LinkedIn outreach tips,1,7,7,0.59,hot,2
+Software Engineer,Non-profit,501-1000,236,Focused on operations and learning. Passionate about building products.,No posts in 90 days,0,0,3,0.17,cold,0
+Student,Non-profit,501-1000,714,Focused on engineering and recruiting. Passionate about learning.,No posts in 90 days,0,0,5,0.08,cold,0
+Head of Sales,Fintech,11-50,3462,Focused on scaling and lead gen. Passionate about cold outreach.,Shared a cold email template,1,5,4,0.73,hot,2
+Data Analyst,Manufacturing,201-500,658,Focused on building products and student. Passionate about student.,No posts in 90 days,0,3,4,0.04,cold,0
+Student,Non-profit,201-500,536,Focused on learning and coding. Passionate about coding.,No recent activity,0,2,1,0.13,cold,0
+Business Development Manager,Real Estate,201-500,1721,Focused on business development and marketing. Passionate about brand.,Commented on growth post,1,8,12,0.2,warm,1
+Director of Growth,Sales Tech,51-200,3803,Focused on growth hacking and pipeline. Passionate about pipeline.,Posted about LinkedIn outreach tips,0,8,12,0.7,hot,2
+Business Development Manager,Retail Tech,11-50,1558,Focused on digital and business development. Passionate about business development.,Shared industry news,1,5,8,0.4,warm,1
+Finance Manager,Manufacturing,1000+,323,Focused on coding and engineering. Passionate about operations.,No recent activity,0,2,6,0.07,cold,0
+Head of Sales,B2B Tech,11-50,2755,Focused on pipeline and outbound. Passionate about cold outreach.,Shared revenue milestone,1,15,14,0.76,hot,2
+Product Manager,Real Estate,11-50,1975,Focused on partnerships and campaigns. Passionate about campaigns.,Commented on growth post,0,2,12,0.48,warm,1
+VP Sales,B2B Tech,1-10,4392,Focused on outbound and cold outreach. Passionate about revenue.,Shared a cold email template,0,12,6,0.57,hot,2
+Marketing Manager,Digital Marketing,51-200,1388,Focused on business development and strategy. Passionate about digital.,Liked a marketing strategy post,1,5,11,0.21,warm,1
+Software Engineer,Non-profit,1-10,122,Focused on data and learning. Passionate about learning.,Liked a job posting,0,3,5,0.05,cold,0
+Software Engineer,Government,1000+,497,Focused on data and engineering. Passionate about operations.,No recent activity,0,1,4,0.16,cold,0
+Product Manager,Consulting,51-200,1502,Focused on campaigns and digital. Passionate about strategy.,Shared industry news,1,2,12,0.28,warm,1
+Business Development Manager,Real Estate,51-200,1749,Focused on partnerships and digital. Passionate about campaigns.,Shared industry news,1,8,4,0.24,warm,1
+Co-Founder,Sales Tech,1-10,597,Focused on GTM and scaling. Passionate about scaling.,Shared revenue milestone,1,9,3,0.87,hot,2
+Founder,B2B Tech,1-10,2767,Focused on pipeline and B2B sales. Passionate about B2B sales.,Posted about LinkedIn outreach tips,0,17,4,0.56,hot,2
+Marketing Manager,Digital Marketing,51-200,384,Focused on partnerships and marketing. Passionate about digital.,Liked a marketing strategy post,1,2,7,0.31,warm,1
+CRO,Fintech,11-50,4100,Focused on outbound and pipeline. Passionate about pipeline.,Shared revenue milestone,1,14,10,0.7,hot,2
+Recruiter,Healthcare,201-500,290,Focused on learning and data. Passionate about coding.,Updated profile picture,0,2,2,0.01,cold,0
+CMO,Insurance,201-500,366,Focused on campaigns and partnerships. Passionate about partnerships.,Commented on growth post,1,7,4,0.34,warm,1
+Head of Marketing,Digital Marketing,51-200,479,Focused on digital and marketing. Passionate about partnerships.,Commented on growth post,0,6,2,0.52,warm,1
+HR Manager,Manufacturing,201-500,709,Focused on data and coding. Passionate about student.,No recent activity,0,0,4,0.17,cold,0
+Co-Founder,Fintech,11-50,4180,Focused on B2B sales and scaling. Passionate about GTM.,Shared revenue milestone,0,20,12,0.69,hot,2
+Director of Growth,Fintech,11-50,4440,Focused on revenue and lead gen. Passionate about outbound.,Shared revenue milestone,0,5,7,0.67,hot,2
+Director of Growth,Marketing Tech,1-10,714,Focused on outbound and revenue. Passionate about lead gen.,Published article on B2B lead gen,0,8,15,0.76,hot,2
+CRO,SaaS,1-10,3627,Focused on B2B sales and growth hacking. Passionate about lead gen.,Published article on B2B lead gen,1,9,12,0.56,hot,2
+CMO,Consulting,51-200,1761,Focused on marketing and partnerships. Passionate about digital.,Commented on growth post,0,5,8,0.36,warm,1
+Student,Manufacturing,1-10,197,Focused on learning and operations. Passionate about building products.,Liked a job posting,0,2,6,0.03,cold,0
+VP Sales,B2B Tech,51-200,1734,Focused on lead gen and pipeline. Passionate about cold outreach.,Shared revenue milestone,1,19,4,0.65,hot,2
