@@ -1,0 +1,37 @@
+[
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 86.2,
+    "final_action": "SEND",
+    "message_preview": "Your SaaS background immediately stood out to me. The scaling angle in your bio ..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 86.2,
+    "final_action": "SEND",
+    "message_preview": "As a Founder in SaaS, you're probably getting a lot of outreach \u2014 so I'll keep t..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top Head of Saless in B2B Tech. Looks..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 29,
+    "reply_prob": 50.6,
+    "final_action": "REVIEW",
+    "message_preview": "Hey Sneha Patel, noticed your focus on digital marketing \u2014 solid approach.\n\nAt S..."
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 24.1,
+    "final_action": "SKIP",
+    "message_preview": null
+  }
+]

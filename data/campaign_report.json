@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Hot",
+    "lead_score": 60,
+    "reply_prob": 86.2,
+    "action": "SEND",
+    "message": "As a Founder in SaaS, you're probably getting a lot of outreach \u2014 so I'll keep this sharp. The scaling angle in your bio tells me you're in growth mode.\n\nAt SBL, our AI chats, handles objections, and books calls \u2014 so you focus on closing, not prospecting.\n\nOpen to a quick chat to see if there's a fit?",
+    "reasoning": "Hot lead (60/100) with strong reply probability (86.2%). Agent decided to send immediately."
+  },
+  {
+    "name": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "action": "SEND",
+    "message": "Came across your profile while researching top Head of Saless in B2B Tech. Looks like you're already thinking about outbound \u2014 so you know the pain.\n\nAt SBL, we automate the full outbound funnel \u2014 LinkedIn, WhatsApp, iMessage \u2014 while keeping it human.\n\nWould a 15-min call make sense this week?",
+    "reasoning": "Hot lead (60/100) with strong reply probability (87.6%). Agent decided to send immediately."
+  },
+  {
+    "name": "Warm",
+    "lead_score": 29,
+    "reply_prob": 50.6,
+    "action": "REVIEW",
+    "message": "Hey Sneha Patel, noticed your focus on digital marketing \u2014 solid approach.\n\nAt SBL, our AI chats, handles objections, and books calls \u2014 so you focus on closing, not prospecting.\n\nOpen to a quick chat to see if there's a fit?",
+    "reasoning": "Warm lead (29/100) with decent reply probability (50.6%). Queue for human-approved send."
+  },
+  {
+    "name": "Cold",
+    "lead_score": 10,
+    "reply_prob": 24.1,
+    "action": "SKIP",
+    "message": null,
+    "reasoning": "Cold lead (10/100) with low reply probability (24.1%). Agent decided to skip \u2014 not worth campaign budget."
+  }
+]
