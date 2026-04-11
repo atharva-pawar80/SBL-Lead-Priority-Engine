@@ -33,5 +33,180 @@
     "reply_prob": 24.1,
     "final_action": "SKIP",
     "message_preview": null
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 85.7,
+    "final_action": "SEND",
+    "message_preview": "Noticed you're scaling outbound at their company \u2014 impressive. The scaling angle..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 83.7,
+    "final_action": "SEND",
+    "message_preview": "As a Founder in SaaS, you're probably getting a lot of outreach \u2014 so I'll keep t..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 82.4,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top CEOs in Sales Tech. The scaling a..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 59,
+    "reply_prob": 87.4,
+    "final_action": "SEND",
+    "message_preview": "Noticed you're scaling outbound at your company \u2014 impressive. Looks like you're ..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top VP Saless in Fintech. Revenue and..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 49,
+    "reply_prob": 72.2,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top Director of Growths in Marketing ..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 29,
+    "reply_prob": 51.2,
+    "final_action": "REVIEW",
+    "message_preview": "Your work in Digital Marketing caught my eye.\n\nAt SBL, our AI chats, handles obj..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 28,
+    "reply_prob": 50.2,
+    "final_action": "REVIEW",
+    "message_preview": "Hey Rohit Verma, noticed your focus on consulting \u2014 solid approach.\n\nAt SBL, our..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 23,
+    "reply_prob": 52.4,
+    "final_action": "REVIEW",
+    "message_preview": "As someone building in Real Estate, thought this might be worth 30 seconds.\n\nAt ..."
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 23.3,
+    "final_action": "SKIP",
+    "message_preview": null
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 21.4,
+    "final_action": "SKIP",
+    "message_preview": null
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 86.2,
+    "final_action": "SEND",
+    "message_preview": "As a Founder in SaaS, you're probably getting a lot of outreach \u2014 so I'll keep t..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "final_action": "SEND",
+    "message_preview": "Noticed you're scaling outbound at TechPipe \u2014 impressive. Looks like you're alre..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 29,
+    "reply_prob": 50.6,
+    "final_action": "REVIEW",
+    "message_preview": "Your work in Digital Marketing caught my eye.\n\nAt SBL, we automate the full outb..."
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 24.1,
+    "final_action": "SKIP",
+    "message_preview": null
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 83.7,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top Founders in SaaS. Looks like you'..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 82.4,
+    "final_action": "SEND",
+    "message_preview": "Noticed you're scaling outbound at your company \u2014 impressive. The scaling angle ..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 59,
+    "reply_prob": 87.4,
+    "final_action": "SEND",
+    "message_preview": "As a Head of Sales in B2B Tech, you're probably getting a lot of outreach \u2014 so I..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "final_action": "SEND",
+    "message_preview": "As a VP Sales in Fintech, you're probably getting a lot of outreach \u2014 so I'll ke..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 49,
+    "reply_prob": 72.2,
+    "final_action": "SEND",
+    "message_preview": "Your Marketing Tech background immediately stood out to me.\n\nAt SBL, we've helpe..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 29,
+    "reply_prob": 51.2,
+    "final_action": "REVIEW",
+    "message_preview": "Hey Divya Nair, noticed your focus on digital marketing \u2014 solid approach.\n\nAt SB..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 28,
+    "reply_prob": 50.2,
+    "final_action": "REVIEW",
+    "message_preview": "Hey Rohit Verma, noticed your focus on consulting \u2014 solid approach.\n\nAt SBL, we ..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 23,
+    "reply_prob": 52.4,
+    "final_action": "REVIEW",
+    "message_preview": "Your work in Real Estate caught my eye.\n\nAt SBL, our AI chats, handles objection..."
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 23.3,
+    "final_action": "SKIP",
+    "message_preview": null
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 21.4,
+    "final_action": "SKIP",
+    "message_preview": null
   }
 ]
