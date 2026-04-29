@@ -257,3 +257,16 @@ def agent_batch(req: BatchAgentRequest):
 
 if __name__ == "__main__":
     uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=True)
+
+@app.get("/monitor")
+def monitor():
+    """
+    MLOps monitoring endpoint.
+    Returns model health, prediction stats,
+    drift indicators and any issues detected.
+    """
+    try:
+        from src.monitor import get_model_health
+        return get_model_health()
+    except Exception as e:
+        raise HTTPException(500, str(e))
