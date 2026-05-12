@@ -208,5 +208,33 @@
     "reply_prob": 21.4,
     "final_action": "SKIP",
     "message_preview": null
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 86.2,
+    "final_action": "SEND",
+    "message_preview": "Came across your profile while researching top Founders in SaaS. The scaling ang..."
+  },
+  {
+    "lead_label": "Hot",
+    "lead_score": 60,
+    "reply_prob": 87.6,
+    "final_action": "SEND",
+    "message_preview": "Noticed you're scaling outbound at TechPipe \u2014 impressive. Looks like you're alre..."
+  },
+  {
+    "lead_label": "Warm",
+    "lead_score": 29,
+    "reply_prob": 50.6,
+    "final_action": "REVIEW",
+    "message_preview": "Your work in Digital Marketing caught my eye.\n\nAt SBL, our AI chats, handles obj..."
+  },
+  {
+    "lead_label": "Cold",
+    "lead_score": 10,
+    "reply_prob": 24.1,
+    "final_action": "SKIP",
+    "message_preview": null
   }
 ]
